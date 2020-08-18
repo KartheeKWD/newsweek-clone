@@ -1,5 +1,5 @@
-.newsweek-logo {
-    width: 132px;
+
+.newsweek-logo {    width: 132px;
     height: 20px;
   }
   header {
@@ -13,6 +13,40 @@
   .subscribe {
     border-radius: 30px;
   }
+
+  /* MAIN SHOWCASE SECTION */
+  .img-fluid {
+      width: 100%;
+  }
+
+  .featured-stories-heading{
+      font-size: 22px;
+      color: #000000;
+  }
+
+  .featured-stories-p {
+    font-size: 13px;
+    color: #333333;
+  }
+
+  .featured-stories-header {
+      font-size: 16px;
+      color: #03030366;
+  }
+  
+  .featured-stories-bg-img {
+      background-image: url(./images/anthony-fauci-deborah-birx-covid19-coronavirus-getty.jpg);
+      background-size: cover;
+      background-position: center center;
+      height: 390px;
+  }
+
+  .featured-div-content {
+      left: 0;
+      bottom: 0;
+  }
+
+  
   /* Tablet breakpoint 768px */
   /* Desktop breakpoint 992px */
   
