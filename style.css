@@ -1,0 +1,21 @@
+.newsweek-logo {
+  width: 132px;
+  height: 20px;
+}
+
+header {
+  background-color: #f72210;
+  height: 50px;
+}
+
+.fa-user-alt,
+.fa-bars {
+  color: white;
+}
+
+.subscribe {
+  border-radius: 30px;
+}
+
+/* Tablet breakpoint 768px */
+/* Desktop breakpoint 992px */
