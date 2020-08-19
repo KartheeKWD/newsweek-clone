@@ -111,18 +111,28 @@ header {
 }
 .my-turn-div img {
   width: 100%;
-  
 }
 
 /* SGN-UP FORM */
+
 .sign-up {
+  background-color: #f4f5f6;
 }
 
-.sign-up-div img{
- background-color: #f72210;
- width: 20px;
- height: 20px;
+.sign-up-div img,
+.magazine-section-logo,
+.editors-pick-logo {
+  background-color: #f72210;
+  width: 20px;
+  height: 20px;
 }
 
+/* EDITORS PICK */
+.editors-pick-bg-img {
+  background-image: url(./images/editors-pick-image.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 390px;
+}
 /* Tablet breakpoint 768px */
 /* Desktop breakpoint 992px */
