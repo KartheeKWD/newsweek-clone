@@ -105,5 +105,24 @@ header {
   border-bottom: none;
 }
 
+/* MY TURN */
+.my-turn-div {
+  padding: 0;
+}
+.my-turn-div img {
+  width: 100%;
+  
+}
+
+/* SGN-UP FORM */
+.sign-up {
+}
+
+.sign-up-div img{
+ background-color: #f72210;
+ width: 20px;
+ height: 20px;
+}
+
 /* Tablet breakpoint 768px */
 /* Desktop breakpoint 992px */
