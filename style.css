@@ -115,7 +115,8 @@ header {
 
 /* SGN-UP FORM */
 
-.sign-up {
+.sign-up,
+.sub-div {
   background-color: #f4f5f6;
 }
 
@@ -133,6 +134,32 @@ header {
   background-size: cover;
   background-position: center center;
   height: 390px;
+}
+
+/* SUBSCRIBTION SECTION */
+.sub-div {
+  width: 80%;
+}
+
+.sub-div button,
+.news-letter button
+ {
+  background-color: #f72210;
+}
+
+.sub-sec h4,
+.news-section h4 {
+  color: #f72210;
+}
+
+/* NEWS LETTER */
+.news-letter{
+  width: 90%;
+  /*background-color: #f72210;*/
+}
+
+.news-letter-input {
+  padding: 0 37%;
 }
 /* Tablet breakpoint 768px */
 /* Desktop breakpoint 992px */
