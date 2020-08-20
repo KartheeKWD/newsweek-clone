@@ -142,8 +142,7 @@ header {
 }
 
 .sub-div button,
-.news-letter button
- {
+.news-letter button {
   background-color: #f72210;
 }
 
@@ -153,13 +152,25 @@ header {
 }
 
 /* NEWS LETTER */
-.news-letter{
+.news-letter {
   width: 90%;
   /*background-color: #f72210;*/
 }
 
 .news-letter-input {
   padding: 0 37%;
+}
+
+/* FOOTER */
+
+footer a,
+footer i,
+footer p {
+  color: #666666;
+}
+
+.footer-links-bottom {
+  line-height: 2rem;
 }
 /* Tablet breakpoint 768px */
 /* Desktop breakpoint 992px */
