@@ -2,6 +2,10 @@ body {
   background-color: #f4f5f7;
 }
 
+.black-text {
+  color: #000;
+}
+
 .newsweek-logo {
   width: 132px;
   height: 20px;
@@ -29,12 +33,18 @@ header {
   color: #000000;
 }
 
-.featured-stories-p {
+.featured-stories-p,
+.by-line {
   font-size: 13px;
   color: #333333;
 }
 
-.featured-stories-header {
+.featured-stories-header,
+.the-debate-heading h4,
+.opnion h3,
+.more-stories h3,
+.my-turn-header,
+.CULTURE-AND-TRAVEL {
   font-size: 16px;
   color: #03030366;
 }
@@ -53,9 +63,13 @@ header {
 }
 
 /* THE DEBATE */
+.the-debate-div {
+  
+}
 
 .the-debate img {
-  width: 100px;
+  width: 63px;
+  height: 63px;
 }
 
 .vs-debate {
@@ -105,6 +119,14 @@ header {
   border-bottom: none;
 }
 
+ .more-stories > div h4{
+  font-size: 17px;
+}
+
+.more-stories > div p {
+  font-size: 13px;
+}
+
 /* MY TURN */
 .my-turn-div {
   padding: 0;
@@ -126,6 +148,10 @@ header {
   background-color: #f72210;
   width: 20px;
   height: 20px;
+}
+
+.FREE-SIGN-UP {
+  background-color: #f61602;
 }
 
 /* EDITORS PICK */
@@ -173,4 +199,33 @@ footer p {
   line-height: 2rem;
 }
 /* Tablet breakpoint 768px */
+@media (min-width: 768px) { 
+  /* TOPSTORIES */
+  .featured-stories-div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .featured-stories-bg-img {
+    height: 210px;
+    width: 100%;
+  }
+
+  .main-section-container,
+  .the-debate {
+    margin: 0;
+    padding: 0;
+  }
+ }
+
+ /* thedebate */
+ .the-debate-heading h4 {
+   font-size: 16px;
+ }
+
+
 /* Desktop breakpoint 992px */
+
+@media (min-width: 992px) {  }
+
