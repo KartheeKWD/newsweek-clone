@@ -63,9 +63,6 @@ header {
 }
 
 /* THE DEBATE */
-.the-debate-div {
-  
-}
 
 .the-debate img {
   width: 63px;
@@ -119,7 +116,7 @@ header {
   border-bottom: none;
 }
 
- .more-stories > div h4{
+.more-stories > div h4 {
   font-size: 17px;
 }
 
@@ -135,6 +132,11 @@ header {
   width: 100%;
 }
 
+.my-turn p {
+  color: #03030380;
+  font-weight: 700;
+}
+
 /* SGN-UP FORM */
 
 .sign-up,
@@ -143,7 +145,6 @@ header {
 }
 
 .sign-up-div img,
-.magazine-section-logo,
 .editors-pick-logo {
   background-color: #f72210;
   width: 20px;
@@ -154,17 +155,48 @@ header {
   background-color: #f61602;
 }
 
+/* MAGAZINE  */
+
+.magazine-section p,
+.editors-pick p {
+  font-size: 19px;
+  color: #333333;
+}
+.magazine-section-logo {
+  background-color: #f72210;
+  width: 29px;
+  height: 28px;
+}
+
+.cover {
+  background-color: #f72210;
+  display: inline-block;
+}
+.health {
+  color: #f72210;
+  display: inline-block;
+}
+
 /* EDITORS PICK */
+
+.editors-pick-logo {
+  background-color: #f72210;
+  width: 29px;
+  height: 28px;
+}
 .editors-pick-bg-img {
   background-image: url(./images/editors-pick-image.jpg);
   background-size: cover;
   background-position: center center;
   height: 390px;
 }
+.featured-stories h3 {
+  font-size: 20px;
+}
 
 /* SUBSCRIBTION SECTION */
 .sub-div {
-  width: 80%;
+  width: 98%;
 }
 
 .sub-div button,
@@ -175,6 +207,7 @@ header {
 .sub-sec h4,
 .news-section h4 {
   color: #f72210;
+  font-size: 16px;
 }
 
 /* NEWS LETTER */
@@ -184,22 +217,35 @@ header {
 }
 
 .news-letter-input {
-  padding: 0 37%;
+  padding: 0 35%;
 }
 
 /* FOOTER */
 
-footer a,
-footer i,
-footer p {
+footer a {
   color: #666666;
+  font-size: 14px;
+}
+
+footer i {
+  color: #666666;
+  width: 26px;
+  height: 26px;
+}
+.social-media-icons {
+  font-size: 25px;
+}
+
+.copyright {
+  color: #666666;
+  font-size: 12px;
 }
 
 .footer-links-bottom {
   line-height: 2rem;
 }
 /* Tablet breakpoint 768px */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   /* TOPSTORIES */
   .featured-stories-div {
     margin: 0;
@@ -217,15 +263,14 @@ footer p {
     margin: 0;
     padding: 0;
   }
- }
+}
 
- /* thedebate */
- .the-debate-heading h4 {
-   font-size: 16px;
- }
-
+/* thedebate */
+.the-debate-heading h4 {
+  font-size: 16px;
+}
 
 /* Desktop breakpoint 992px */
 
-@media (min-width: 992px) {  }
-
+@media (min-width: 992px) {
+}

@@ -1,836 +1,1004 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>NewsWeek Clone</title>
+  </head>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
-  <title>NewsWeek Clone</title>
-</head>
-
-<body>
-  <header>
-    <nav class="d-flex justify-content-between align-items-center">
-      <div>
-        <img class="newsweek-logo ml-3" src="images/newsweek-logo.svg" alt="NewsWeek-logo" />
-      </div>
-      <div class="d-flex align-items-center">
-        <i class="ml-3 fas fa-user-alt"></i>
-        <button class="subscribe ml-3 my-2 btn btn-warning">
-          Subscribe
-        </button>
-        <i class="mx-3 fas fa-bars"></i>
-      </div>
-    </nav>
-  </header>
-
-  <!-- MAIN SHOWCASE SECTION -->
-
-  <section class="pt-3">
-    <div class="main-section-container container-fluid mx-auto container-md row">
-      <!-- featued stories -->
-      <div class="featured-stories-div bg-white mb-4 col-md-5 order-sm-1 order-md-1">
+  <body>
+    <header>
+      <nav class="d-flex justify-content-between align-items-center">
         <div>
-          <div class="justify-content-start">
-            <h4 class="featured-stories-header">FEATURED STORIES</h4>
-          </div>
+          <img
+            class="newsweek-logo ml-3"
+            src="images/newsweek-logo.svg"
+            alt="NewsWeek-logo"
+          />
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="ml-3 fas fa-user-alt"></i>
+          <button class="subscribe ml-3 my-2 btn btn-warning">
+            Subscribe
+          </button>
+          <i class="mx-3 fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN SHOWCASE SECTION -->
+
+    <section class="">
+      <div
+        class="main-section-container container-fluid mx-auto container-md row"
+      >
+        <!-- featued stories -->
+        <div
+          class="featured-stories-div bg-white pt-3 mb-4 col-md-5 order-sm-1 order-md-1"
+        >
           <div>
-            <div class="featured-stories">
-              <div class="featured-stories-bg-img position-relative">
-                <p class="featured-div-content mb-n1 p-2 position-absolute">
-                  HEALTH
+            <div class="justify-content-start">
+              <h4 class="pt-3featured-stories-header">FEATURED STORIES</h4>
+            </div>
+            <div>
+              <div class="featured-stories">
+                <div class="featured-stories-bg-img position-relative">
+                  <p class="featured-div-content mb-n1 p-2 position-absolute">
+                    HEALTH
+                  </p>
+                </div>
+                <h3 class="featured-stories-heading font-weight-bold">
+                  Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
+                  Months
+                </h3>
+                <p class="featured-stories-p">
+                  The U.S. makes up around a quarter of both the worldwide total
+                  of COVID-19 cases and deaths.
                 </p>
               </div>
-              <h3 class="featured-stories-heading">
-                Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-                Months
-              </h3>
-              <p class="featured-stories-p">
-                The U.S. makes up around a quarter of both the worldwide total
-                of COVID-19 cases and deaths.
-              </p>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <div class="featured-stories">
+                <div class="featured-stories-bg-img position-relative">
+                  <p class="featured-div-content mb-n1 p-2 position-absolute">
+                    HEALTH
+                  </p>
+                </div>
+                <h3 class="featured-stories-heading font-weight-bold">
+                  Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
+                  Months
+                </h3>
+                <p class="featured-stories-p">
+                  The U.S. makes up around a quarter of both the worldwide total
+                  of COVID-19 cases and deaths.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <div class="featured-stories">
+                <div class="featured-stories-bg-img position-relative">
+                  <p class="featured-div-content mb-n1 p-2 position-absolute">
+                    HEALTH
+                  </p>
+                </div>
+                <h3 class="featured-stories-heading font-weight-bold">
+                  Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
+                  Months
+                </h3>
+                <p class="featured-stories-p">
+                  The U.S. makes up around a quarter of both the worldwide total
+                  of COVID-19 cases and deaths.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div class="featured-stories">
+                <div class="featured-stories-bg-img position-relative">
+                  <p class="featured-div-content mb-n1 p-2 position-absolute">
+                    HEALTH
+                  </p>
+                </div>
+                <h3 class="featured-stories-heading font-weight-bold">
+                  Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
+                  Months
+                </h3>
+                <p class="featured-stories-p">
+                  The U.S. makes up around a quarter of both the worldwide total
+                  of COVID-19 cases and deaths.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div class="featured-stories">
+                <div class="featured-stories-bg-img position-relative">
+                  <p class="featured-div-content mb-n1 p-2 position-absolute">
+                    HEALTH
+                  </p>
+                </div>
+                <h3 class="featured-stories-heading font-weight-bold">
+                  Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
+                  Months
+                </h3>
+                <p class="featured-stories-p">
+                  The U.S. makes up around a quarter of both the worldwide total
+                  of COVID-19 cases and deaths.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div class="featured-stories">
+                <div class="featured-stories-bg-img position-relative">
+                  <p class="featured-div-content mb-n1 p-2 position-absolute">
+                    HEALTH
+                  </p>
+                </div>
+                <h3 class="featured-stories-heading font-weight-bold">
+                  Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
+                  Months
+                </h3>
+                <p class="featured-stories-p">
+                  The U.S. makes up around a quarter of both the worldwide total
+                  of COVID-19 cases and deaths.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div>
+        <!-- TOP STOREIS -->
+        <div class="top-stories-div bg-white mb-4 col-md-7">
           <div>
-            <div class="featured-stories">
-              <div class="featured-stories-bg-img position-relative">
-                <p class="featured-div-content mb-n1 p-2 position-absolute">
-                  HEALTH
+            <div class="container-fluid">
+              <h4 class="pt-3 featured-stories-header">TOP STORIES</h4>
+            </div>
+            <div>
+              <div class="featured-stories">
+                <div class="featured-stories-bg-img position-relative">
+                  <p class="featured-div-content mb-n1 p-2 position-absolute">
+                    HEALTH
+                  </p>
+                </div>
+                <h3 class="featured-stories-heading font-weight-bold">
+                  Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
+                  Months
+                </h3>
+                <p class="featured-stories-p">
+                  The U.S. makes up around a quarter of both the worldwide total
+                  of COVID-19 cases and deaths.
                 </p>
               </div>
-              <h3 class="featured-stories-heading">
-                Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-                Months
-              </h3>
-              <p class="featured-stories-p">
-                The U.S. makes up around a quarter of both the worldwide total
-                of COVID-19 cases and deaths.
-              </p>
             </div>
           </div>
         </div>
+        <div class="order-sm-2 container-fluid px-0">
+          <!-- THE DEBATE -->
+          <section class="the-debate container-fluid mx-auto px-0 pb-3">
+            <div class="the-debate-div bg-white mb-4">
+              <div class="the-debate-heading">
+                <h4 class="pt-3">THE DEBATE</h4>
+              </div>
 
-        <div>
-          <div>
-            <div class="featured-stories">
-              <div class="featured-stories-bg-img position-relative">
-                <p class="featured-div-content mb-n1 p-2 position-absolute">
-                  HEALTH
-                </p>
+              <div class="mb-4 mt-4 d-flex">
+                <img
+                  class="mr-3"
+                  src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
+                  alt=""
+                />
+                <div>
+                  <p class="font-weight-bold">
+                    Legalization Is the Only Way to Improve the Criminal Justice
+                    System
+                  </p>
+                  <p>
+                    BY
+                    <span class="font-weight-bold">
+                      MAJOR NEILL FRANKLIN (RET.)</span
+                    >
+                  </p>
+                </div>
               </div>
-              <h3 class="featured-stories-heading">
-                Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-                Months
-              </h3>
-              <p class="featured-stories-p">
-                The U.S. makes up around a quarter of both the worldwide total
-                of COVID-19 cases and deaths.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div class="featured-stories">
-              <div class="featured-stories-bg-img position-relative">
-                <p class="featured-div-content mb-n1 p-2 position-absolute">
-                  HEALTH
+              <div class="vs-debate position-relative">
+                <p class="vs-sudo rounded-circle p-1 position-absolute">
+                  VS
                 </p>
+                <hr class="vs-sudo-hr" />
+                <hr class="vs-sudo-hr" />
               </div>
-              <h3 class="featured-stories-heading">
-                Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-                Months
-              </h3>
-              <p class="featured-stories-p">
-                The U.S. makes up around a quarter of both the worldwide total
-                of COVID-19 cases and deaths.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div class="featured-stories">
-              <div class="featured-stories-bg-img position-relative">
-                <p class="featured-div-content mb-n1 p-2 position-absolute">
-                  HEALTH
-                </p>
-              </div>
-              <h3 class="featured-stories-heading">
-                Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-                Months
-              </h3>
-              <p class="featured-stories-p">
-                The U.S. makes up around a quarter of both the worldwide total
-                of COVID-19 cases and deaths.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <div class="featured-stories">
-              <div class="featured-stories-bg-img position-relative">
-                <p class="featured-div-content mb-n1 p-2 position-absolute">
-                  HEALTH
-                </p>
-              </div>
-              <h3 class="featured-stories-heading">
-                Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-                Months
-              </h3>
-              <p class="featured-stories-p">
-                The U.S. makes up around a quarter of both the worldwide total
-                of COVID-19 cases and deaths.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+              <div class="d-flex justify-content-between legalizing">
+                <div>
+                  <p class="font-weight-bold">
+                    Legalizing Pot Is a Catastrophic Mistake
+                  </p>
+                  <p class="font-weight-bold">BY KEVIN SABET</p>
+                </div>
 
-      <!-- TOP STOREIS -->
-      <div class="top-stories-div bg-white mb-4 col-md-7 ">
-        <div>
-          <div class="container-fluid">
-            <h4 class="featured-stories-header">TOP STORIES</h4>
-          </div>
-          <div>
-            <div class="featured-stories">
-              <div class="featured-stories-bg-img position-relative">
-                <p class="featured-div-content mb-n1 p-2 position-absolute">
-                  HEALTH
-                </p>
+                <img
+                  class="pb-3"
+                  src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
+                  alt=""
+                />
               </div>
-              <h3 class="featured-stories-heading">
-                Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-                Months
-              </h3>
-              <p class="featured-stories-p">
-                The U.S. makes up around a quarter of both the worldwide total
-                of COVID-19 cases and deaths.
-              </p>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="order-sm-2">
-        <!-- THE DEBATE -->
-        <section class="the-debate container-fluid mx-auto ">
-          <div class="the-debate-div container-fluid bg-white mb-4">
-            <div class="the-debate-heading">
-              <h4>THE DEBATE</h4>
-            </div>
+          </section>
+          <!-- OPNION -->
 
+          <div class="opnion bg-white container-fluid py-3">
+            <h3>OPINION</h3>
             <div class="mb-4 mt-4 d-flex">
-              <img class="mr-3"
+              <img
+                class="mr-3 pb-3"
                 src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                alt="" />
+                alt=""
+              />
               <div>
                 <p class="font-weight-bold">
                   Legalization Is the Only Way to Improve the Criminal Justice
                   System
                 </p>
-                <p>BY <span class="font-weight-bold"> MAJOR NEILL FRANKLIN (RET.)</span></p>
+                <p class="by-line font-weight-bold">
+                  BY <span> MAJOR NEILL FRANKLIN (RET.)</span>
+                </p>
               </div>
             </div>
-            <div class="vs-debate position-relative">
-              <p class="vs-sudo rounded-circle p-1 position-absolute">
-                VS
-              </p>
-              <hr class="vs-sudo-hr" />
-              <hr class="vs-sudo-hr" />
-            </div>
-            <div class="d-flex justify-content-between legalizing">
-              <div>
-                <p class="font-weight-bold">Legalizing Pot Is a Catastrophic Mistake</p>
-                <p class="font-weight-bold">BY KEVIN SABET</p>
-              </div>
-
-              <img class="pb-3"
+            <div class="mb-4 mt-4 d-flex">
+              <img
+                class="mr-3 pb-3"
                 src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                alt="" />
+                alt=""
+              />
+              <div>
+                <p class="font-weight-bold">
+                  Legalization Is the Only Way to Improve the Criminal Justice
+                  System
+                </p>
+                <p class="by-line font-weight-bold">
+                  BY <span> MAJOR NEILL FRANKLIN (RET.)</span>
+                </p>
+              </div>
             </div>
-          </div>
-        </section>
-        <!-- OPNION -->
-
-        <div class="opnion bg-white container-fluid">
-          <h3>OPINION</h3>
-          <div class="mb-4 mt-4 d-flex">
-            <img class="mr-3 pb-3"
-              src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-              alt="" />
-            <div>
-              <p class="font-weight-bold">
-                Legalization Is the Only Way to Improve the Criminal Justice
-                System
-              </p>
-              <p class="by-line font-weight-bold">BY <span> MAJOR NEILL FRANKLIN (RET.)</span></p>
+            <div class="mb-4 mt-4 d-flex">
+              <img
+                class="mr-3 pb-3"
+                src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
+                alt=""
+              />
+              <div>
+                <p class="font-weight-bold">
+                  Legalization Is the Only Way to Improve the Criminal Justice
+                  System
+                </p>
+                <p class="by-line font-weight-bold">
+                  BY <span> MAJOR NEILL FRANKLIN (RET.)</span>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="mb-4 mt-4 d-flex">
-            <img class="mr-3 pb-3"
-              src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-              alt="" />
-            <div>
-              <p class="font-weight-bold">
-                Legalization Is the Only Way to Improve the Criminal Justice
-                System
-              </p>
-              <p class="by-line font-weight-bold">BY <span> MAJOR NEILL FRANKLIN (RET.)</span></p>
+            <div class="mb-4 mt-4 d-flex">
+              <img
+                class="mr-3 pb-3"
+                src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
+                alt=""
+              />
+              <div>
+                <p class="font-weight-bold">
+                  Legalization Is the Only Way to Improve the Criminal Justice
+                  System
+                </p>
+                <p class="by-line font-weight-bold">
+                  BY <span> MAJOR NEILL FRANKLIN (RET.)</span>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="mb-4 mt-4 d-flex">
-            <img class="mr-3 pb-3"
-              src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-              alt="" />
-            <div>
-              <p class="font-weight-bold">
-                Legalization Is the Only Way to Improve the Criminal Justice
-                System
-              </p>
-              <p class="by-line font-weight-bold">BY <span> MAJOR NEILL FRANKLIN (RET.)</span></p>
+            <div class="mb-4 mt-4 d-flex">
+              <img
+                class="mr-3 pb-3"
+                src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
+                alt=""
+              />
+              <div>
+                <p class="font-weight-bold">
+                  Legalization Is the Only Way to Improve the Criminal Justice
+                  System
+                </p>
+                <p class="by-line font-weight-bold">
+                  BY <span> MAJOR NEILL FRANKLIN (RET.)</span>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="mb-4 mt-4 d-flex">
-            <img class="mr-3 pb-3"
-              src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-              alt="" />
-            <div>
-              <p class="font-weight-bold">
-                Legalization Is the Only Way to Improve the Criminal Justice
-                System
-              </p>
-              <p class="by-line font-weight-bold">BY <span> MAJOR NEILL FRANKLIN (RET.)</span></p>
+            <div class="mb-4 mt-4 d-flex">
+              <img
+                class="mr-3 pb-3"
+                src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
+                alt=""
+              />
+              <div>
+                <p class="font-weight-bold">
+                  Legalization Is the Only Way to Improve the Criminal Justice
+                  System
+                </p>
+                <p class="by-line font-weight-bold">
+                  BY <span> MAJOR NEILL FRANKLIN (RET.)</span>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="mb-4 mt-4 d-flex">
-            <img class="mr-3 pb-3"
-              src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-              alt="" />
-            <div>
-              <p class="font-weight-bold">
-                Legalization Is the Only Way to Improve the Criminal Justice
-                System
-              </p>
-              <p class="by-line font-weight-bold">BY <span> MAJOR NEILL FRANKLIN (RET.)</span></p>
+            <div class="mb-4 mt-4 d-flex">
+              <img
+                class="mr-3 pb-3"
+                src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
+                alt=""
+              />
+              <div>
+                <p class="font-weight-bold">
+                  Legalization Is the Only Way to Improve the Criminal Justice
+                  System
+                </p>
+                <p class="by-line font-weight-bold">
+                  BY <span> MAJOR NEILL FRANKLIN (RET.)</span>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="mb-4 mt-4 d-flex">
-            <img class="mr-3 pb-3"
-              src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-              alt="" />
-            <div>
-              <p class="font-weight-bold">
-                Legalization Is the Only Way to Improve the Criminal Justice
-                System
-              </p>
-              <p class="by-line font-weight-bold">BY <span> MAJOR NEILL FRANKLIN (RET.)</span></p>
-            </div>
-          </div>
-          <div class="mb-4 mt-4 d-flex">
-            <img class="mr-3 pb-3"
-              src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-              alt="" />
-            <div>
-              <p class="font-weight-bold">
-                Legalization Is the Only Way to Improve the Criminal Justice
-                System
-              </p>
-              <p class="by-line font-weight-bold">BY <span> MAJOR NEILL FRANKLIN (RET.)</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- More stories  -->
-
-      <div class="more-stories bg-white order-sm-3">
-        <h3>MORE STORIES</h3>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-        <div class="mb-4 mt-4 d-flex">
-          <img class="mr-3"
-            src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-            alt="" />
-          <div>
-            <h4 class="font-weight-bold black-text">
-              Thirty States May Reject Trump's Weekly $400 Unemployment
-              Boost, 18 Accept
-            </h4>
-            <p>
-              So far, two states are rejecting the plan that pays out less
-              than the $600 provided under the CARES Act passed by Congress
-              in March.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- my turn -->
-      <div class="order-sm-4 container-fluid">
-        <h3 class="my-turn-header">MY TURN</h3>
-        <div class="my-turn-div">
-          <img class="my-turn-img mb-2" src="./images/love-coronavirus-immigration.jpg" alt="">
-          <div>
-            <p>'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'</p>
-          </div>
-        </div>
-        <div class="my-turn-div">
-          <img class="my-turn-img mb-2 w-100" src="./images/love-coronavirus-immigration.jpg" alt="">
-          <div>
-            <p>'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'</p>
-          </div>
-        </div>
-        <div class="my-turn-div">
-          <img class="my-turn-img mb-2" src="./images/love-coronavirus-immigration.jpg" alt="">
-          <div>
-            <p>'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- culture and travel -->
-      <div class="order-sm-5 container-fluid">
-        <h3 class="CULTURE-AND-TRAVEL">CULTURE AND TRAVEL</h3>
-        <div class="my-turn-div">
-          <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="">
-          <div>
-            <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
           </div>
         </div>
 
-        <div class="my-turn-div">
-          <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="">
-          <div>
-            <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
+        <!-- More stories  -->
+
+        <div class="more-stories bg-white my-3 py-3 order-sm-3">
+          <h3>MORE STORIES</h3>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+          <div class="mb-4 mt-4 d-flex">
+            <img
+              class="mr-3"
+              src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
+              alt=""
+            />
+            <div>
+              <h4 class="font-weight-bold black-text">
+                Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
+                18 Accept
+              </h4>
+              <p>
+                So far, two states are rejecting the plan that pays out less
+                than the $600 provided under the CARES Act passed by Congress in
+                March.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- my turn -->
+        <div class="order-sm-4 my-turn py-3 bg-white container-fluid">
+          <h3 class="my-turn-header">MY TURN</h3>
+          <div class="my-turn-div">
+            <img
+              class="my-turn-img mb-2"
+              src="./images/love-coronavirus-immigration.jpg"
+              alt=""
+            />
+            <div>
+              <p>'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'</p>
+            </div>
+          </div>
+          <div class="my-turn-div">
+            <img
+              class="my-turn-img mb-2 w-100"
+              src="./images/love-coronavirus-immigration.jpg"
+              alt=""
+            />
+            <div>
+              <p>'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'</p>
+            </div>
+          </div>
+          <div class="my-turn-div">
+            <img
+              class="my-turn-img mb-2"
+              src="./images/love-coronavirus-immigration.jpg"
+              alt=""
+            />
+            <div>
+              <p>'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- culture and travel -->
+        <div class="order-sm-5 my-turn bg-white pt-3 mt-3 container-fluid">
+          <h3 class="CULTURE-AND-TRAVEL">CULTURE AND TRAVEL</h3>
+          <div class="my-turn-div">
+            <img
+              class="my-turn-img mb-2"
+              src="./images/delta-airlines.jpg"
+              alt=""
+            />
+            <div>
+              <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
+            </div>
           </div>
 
           <div class="my-turn-div">
-            <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="">
+            <img
+              class="my-turn-img mb-2"
+              src="./images/delta-airlines.jpg"
+              alt=""
+            />
             <div>
               <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
             </div>
 
             <div class="my-turn-div">
-              <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="">
+              <img
+                class="my-turn-img mb-2"
+                src="./images/delta-airlines.jpg"
+                alt=""
+              />
               <div>
                 <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
+              </div>
+
+              <div class="my-turn-div">
+                <img
+                  class="my-turn-img mb-2"
+                  src="./images/delta-airlines.jpg"
+                  alt=""
+                />
+                <div>
+                  <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- SIGN-UP FORM -->
-  <section class="sign-up-section py-5 bg-white">
-    <div class="sign-up w-50 mx-auto h-167 py-4">
-      <div class="sign-up-div d-flex justify-content-center">
-        <p class="text-center"><img src="https://g.newsweek.com/www/images/logo-n1.svg" alt=""> START YOUR DAY WITH OUR
-          <br> TOP FIVE ARTICLES</p>
-      </div>
-      <div class="  w-75 mx-auto d-flex flex-column ">
-        <input class="mb-3 border-0" type="email" placeholder="Email Address">
-        <button class="border-0 s FREE-SIGN-UP text-white">FREE SIGN UP</button>
-      </div>
-    </div>
-  </section>
-  <!-- MAGAZINE-SECTION  -->
-  <section class="mt-5  container-fluid ">
-    <div class="magazine-section ">
-      <p class="text-center font-weight-bold"><img class="magazine-section-logo"
-          src="https://g.newsweek.com/www/images/logo-n1.svg" alt=""> IN THE MAGAZINE </p>
-    </div>
-    <div class="justify-content-center">
-      <div class="my-3">
-        <img class="w-100 " src="images/magazine-image.jpg" alt="">
-        <p class="font-weight-bold text-center">SEE ALL FEATURES</p>
-      </div>
-      <div>
-        <div class="my-3">
-          <img class="w-100" src="images/magazine-image.jpg" alt="">
-          <p><span>COVER</span> <span>HEALTH</span> </p>
-          <P>How the Pandemic Is Making the Opioid Crisis Worse</P>
+    </section>
+    <!-- SIGN-UP FORM -->
+    <section class="sign-up-section py-5 bg-white">
+      <div class="sign-up w-50 mx-auto h-167 py-4">
+        <div class="sign-up-div d-flex justify-content-center">
+          <p class="text-center">
+            <img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="" />
+            START YOUR DAY WITH OUR <br />
+            TOP FIVE ARTICLES
+          </p>
         </div>
-        <div class="my-3">
-          <img class="w-100" src="images/magazine-image.jpg" alt="">
-          <p><span>COVER</span> <span>HEALTH</span> </p>
-          <P>How the Pandemic Is Making the Opioid Crisis Worse</P>
-        </div>
-        <div class="my-3">
-          <img class="w-100" src="images/magazine-image.jpg" alt="">
-          <p><span>COVER</span> <span>HEALTH</span> </p>
-          <P>How the Pandemic Is Making the Opioid Crisis Worse</P>
-        </div>
-        <div class="my-3">
-          <img class="w-100" src="images/magazine-image.jpg" alt="">
-          <p><span>COVER</span> <span>HEALTH</span> </p>
-          <P>How the Pandemic Is Making the Opioid Crisis Worse</P>
-        </div>
-        <div class="my-3">
-          <img class="w-100" src="images/magazine-image.jpg" alt="">
-          <p><span>COVER</span> <span>HEALTH</span> </p>
-          <P>How the Pandemic Is Making the Opioid Crisis Worse</P>
+        <div class="w-75 mx-auto d-flex flex-column">
+          <input
+            class="mb-3 border-0"
+            type="email"
+            placeholder="Email Address"
+          />
+          <button class="border-0 s FREE-SIGN-UP text-white">
+            FREE SIGN UP
+          </button>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- EDITORS PICK -->
-  <section class="mt-5  container-fluid ">
-    <div class="editors-pick ">
-      <p class="text-center"><img class="editors-pick-logo" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="">
-        EDITORS PICK</p>
-    </div>
-    <div class="featured-stories">
-      <div class="editors-pick-bg-img position-relative">
-        <p class="featured-div-content mb-n1 p-2 position-absolute">
-          HEALTH
+    </section>
+    <!-- MAGAZINE-SECTION  -->
+    <section class="mt-5 container-fluid bg-white magazine-section-container">
+      <div class="magazine-section">
+        <p class="text-center py-4 font-weight-bold">
+          <img
+            class="magazine-section-logo mr-2"
+            src="https://g.newsweek.com/www/images/logo-n1.svg"
+            alt=""
+          />
+          IN THE MAGAZINE
         </p>
       </div>
-      <h3 class="featured-stories-heading">
-        Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-        Months
-      </h3>
-      <p class="featured-stories-p">
-        The U.S. makes up around a quarter of both the worldwide total
-        of COVID-19 cases and deaths.
-      </p>
-    </div>
-    <div class="featured-stories">
-      <div class="editors-pick-bg-img position-relative">
-        <p class="featured-div-content mb-n1 p-2 position-absolute">
-          HEALTH
+      <div class="justify-content-center">
+        <div class="my-3">
+          <img class="w-100" src="images/magazine-image.jpg" alt="" />
+          <div class="position-relative">
+            <p class="featured-div-content mb-n1 p-2 position-absolute">
+              AUGUST 28 ISSUE
+            </p>
+          </div>
+          <p class="font-weight-bold text-center">SEE ALL FEATURES ></p>
+        </div>
+        <div>
+          <div class="my-3">
+            <img class="w-100" src="images/magazine-image.jpg" alt="" />
+            <p class="mb-0">
+              <span class="cover p-2 text-white">COVER</span>
+              <span class="health p-2 m-2">HEALTH</span>
+            </p>
+            <p class="text-dark font-weight-bold">
+              How the Pandemic Is Making the Opioid Crisis Worse
+            </p>
+          </div>
+          <div class="my-3">
+            <img class="w-100" src="images/magazine-image.jpg" alt="" />
+            <p class="mb-0">
+              <span class="cover p-2 text-white">COVER</span>
+              <span class="health p-2 m-2">HEALTH</span>
+            </p>
+            <p class="text-dark font-weight-bold">
+              How the Pandemic Is Making the Opioid Crisis Worse
+            </p>
+          </div>
+          <div class="my-3">
+            <img class="w-100" src="images/magazine-image.jpg" alt="" />
+            <p class="mb-0">
+              <span class="cover p-2 text-white">COVER</span>
+              <span class="health p-2 m-2">HEALTH</span>
+            </p>
+            <p class="text-dark font-weight-bold">
+              How the Pandemic Is Making the Opioid Crisis Worse
+            </p>
+          </div>
+          <div class="my-3">
+            <img class="w-100" src="images/magazine-image.jpg" alt="" />
+            <p class="mb-0">
+              <span class="cover p-2 text-white">COVER</span>
+              <span class="health p-2 m-2">HEALTH</span>
+            </p>
+            <p class="text-dark font-weight-bold">
+              How the Pandemic Is Making the Opioid Crisis Worse
+            </p>
+          </div>
+          <div class="my-3">
+            <img class="w-100" src="images/magazine-image.jpg" alt="" />
+            <p class="mb-0">
+              <span class="cover p-2 text-white">COVER</span>
+              <span class="health p-2 m-2">HEALTH</span>
+            </p>
+            <p class="text-dark font-weight-bold">
+              How the Pandemic Is Making the Opioid Crisis Worse
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDITORS PICK -->
+    <section class="mt-5 container-fluid bg-white">
+      <div class="editors-pick">
+        <p class="text-center font-weight-bold pt-3">
+          <img
+            class="editors-pick-logo"
+            src="https://g.newsweek.com/www/images/logo-n1.svg"
+            alt=""
+          />
+          EDITORS PICK
         </p>
       </div>
-      <h3 class="featured-stories-heading">
-        Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-        Months
-      </h3>
-      <p class="featured-stories-p">
-        The U.S. makes up around a quarter of both the worldwide total
-        of COVID-19 cases and deaths.
-      </p>
-    </div>
-    <div class="featured-stories">
-      <div class="editors-pick-bg-img position-relative">
-        <p class="featured-div-content mb-n1 p-2 position-absolute">
-          HEALTH
+      <div class="featured-stories">
+        <div class="editors-pick-bg-img position-relative">
+          <p class="featured-div-content mb-n1 p-2 position-absolute">
+            HEALTH
+          </p>
+        </div>
+        <h3 class="featured-stories-heading font-weight-bold">
+          Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for Months
+        </h3>
+        <p class="featured-stories-p">
+          The U.S. makes up around a quarter of both the worldwide total of
+          COVID-19 cases and deaths.
         </p>
       </div>
-      <h3 class="featured-stories-heading">
-        Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-        Months
-      </h3>
-      <p class="featured-stories-p">
-        The U.S. makes up around a quarter of both the worldwide total
-        of COVID-19 cases and deaths.
-      </p>
-    </div>
-    <div class="featured-stories">
-      <div class="editors-pick-bg-img position-relative">
-        <p class="featured-div-content mb-n1 p-2 position-absolute">
-          HEALTH
+      <div class="featured-stories">
+        <div class="editors-pick-bg-img position-relative">
+          <p class="featured-div-content mb-n1 p-2 position-absolute">
+            HEALTH
+          </p>
+        </div>
+        <h3 class="featured-stories-heading font-weight-bold">
+          Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for Months
+        </h3>
+        <p class="featured-stories-p">
+          The U.S. makes up around a quarter of both the worldwide total of
+          COVID-19 cases and deaths.
         </p>
       </div>
-      <h3 class="featured-stories-heading">
-        Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-        Months
-      </h3>
-      <p class="featured-stories-p">
-        The U.S. makes up around a quarter of both the worldwide total
-        of COVID-19 cases and deaths.
-      </p>
-    </div>
-    <div class="featured-stories">
-      <div class="editors-pick-bg-img position-relative">
-        <p class="featured-div-content mb-n1 p-2 position-absolute">
-          HEALTH
+      <div class="featured-stories">
+        <div class="editors-pick-bg-img position-relative">
+          <p class="featured-div-content mb-n1 p-2 position-absolute">
+            HEALTH
+          </p>
+        </div>
+        <h3 class="featured-stories-heading font-weight-bold">
+          Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for Months
+        </h3>
+        <p class="featured-stories-p">
+          The U.S. makes up around a quarter of both the worldwide total of
+          COVID-19 cases and deaths.
         </p>
       </div>
-      <h3 class="featured-stories-heading">
-        Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-        Months
-      </h3>
-      <p class="featured-stories-p">
-        The U.S. makes up around a quarter of both the worldwide total
-        of COVID-19 cases and deaths.
-      </p>
-    </div>
-    <div class="featured-stories">
-      <div class="editors-pick-bg-img position-relative">
-        <p class="featured-div-content mb-n1 p-2 position-absolute">
-          HEALTH
+      <div class="featured-stories">
+        <div class="editors-pick-bg-img position-relative">
+          <p class="featured-div-content mb-n1 p-2 position-absolute">
+            HEALTH
+          </p>
+        </div>
+        <h3 class="featured-stories-heading font-weight-bold">
+          Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for Months
+        </h3>
+        <p class="featured-stories-p">
+          The U.S. makes up around a quarter of both the worldwide total of
+          COVID-19 cases and deaths.
         </p>
       </div>
-      <h3 class="featured-stories-heading">
-        Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-        Months
-      </h3>
-      <p class="featured-stories-p">
-        The U.S. makes up around a quarter of both the worldwide total
-        of COVID-19 cases and deaths.
-      </p>
-    </div>
-    <div class="featured-stories">
-      <div class="editors-pick-bg-img position-relative">
-        <p class="featured-div-content mb-n1 p-2 position-absolute">
-          HEALTH
+      <div class="featured-stories">
+        <div class="editors-pick-bg-img position-relative">
+          <p class="featured-div-content mb-n1 p-2 position-absolute">
+            HEALTH
+          </p>
+        </div>
+        <h3 class="featured-stories-heading font-weight-bold">
+          Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for Months
+        </h3>
+        <p class="featured-stories-p">
+          The U.S. makes up around a quarter of both the worldwide total of
+          COVID-19 cases and deaths.
         </p>
       </div>
-      <h3 class="featured-stories-heading">
-        Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-        Months
-      </h3>
-      <p class="featured-stories-p">
-        The U.S. makes up around a quarter of both the worldwide total
-        of COVID-19 cases and deaths.
-      </p>
-    </div>
-    <div class="featured-stories">
-      <div class="editors-pick-bg-img position-relative">
-        <p class="featured-div-content mb-n1 p-2 position-absolute">
-          HEALTH
+      <div class="featured-stories">
+        <div class="editors-pick-bg-img position-relative">
+          <p class="featured-div-content mb-n1 p-2 position-absolute">
+            HEALTH
+          </p>
+        </div>
+        <h3 class="featured-stories-heading font-weight-bold">
+          Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for Months
+        </h3>
+        <p class="featured-stories-p">
+          The U.S. makes up around a quarter of both the worldwide total of
+          COVID-19 cases and deaths.
         </p>
       </div>
-      <h3 class="featured-stories-heading">
-        Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for
-        Months
-      </h3>
-      <p class="featured-stories-p">
-        The U.S. makes up around a quarter of both the worldwide total
-        of COVID-19 cases and deaths.
-      </p>
-    </div>
-
-  </section>
-
-  <!-- SUBSCRIBE -->
-  <section class="sub-sec bg-white mt-5 py-5 container-fluid ">
-    <h4>SUBSCRIBE</h4>
-    <div class="sub-div mx-auto text-center">
-      <img class="mr-n5" src="./images/subscribe-1.jpg" alt="">
-      <img class="sub-img-2 ml-n5" src="./images/subscribe-2.jpg" alt="">
-
-      <div class="mt-n5">
-        <p class="font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
-        <p>All access + weekly delivery <br> Choose A Membership Thats Perfect For You</p>
+      <div class="featured-stories">
+        <div class="editors-pick-bg-img position-relative">
+          <p class="featured-div-content mb-n1 p-2 position-absolute">
+            HEALTH
+          </p>
+        </div>
+        <h3 class="featured-stories-heading font-weight-bold">
+          Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for Months
+        </h3>
+        <p class="featured-stories-p">
+          The U.S. makes up around a quarter of both the worldwide total of
+          COVID-19 cases and deaths.
+        </p>
       </div>
-      <button class="sub-btn px-2 py-2 mb-3 text-white border-0 rounded">SUBSCRIBE</button>
-
-    </div>
-
-  </section>
-
-  <!-- NEWS LETTER -->
-  <section class="news-section bg-white container-fluid py-3">
-    <h4>NEWS LETTER</h4>
-    <div class="news-letter d-flex flex-column justify-content-center align-items-center mx-auto">
-      <h5 class="font-weight-bold">The Starting 5</h5>
-      <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5</p>
-
-      <input class="news-letter-input" type="text" placeholder="Email Address">
-
-      <button class="my-2 border-0 text-white  btn btn-block n font-weight-bold">FREE SIGN UP</button>
-    </div>
-  </section>
-
-  <footer class="container-fluid bg-white mt-4 py-3">
-    <div class="footer-info pt-3">
-      <div>
-        <img class="footer-newsweek-logo" src="images/footer-logo.svg" alt="">
-        <p class="pt-2">© 2020 NEWSWEEK</p>
+      <div class="featured-stories">
+        <div class="editors-pick-bg-img position-relative">
+          <p class="featured-div-content mb-n1 p-2 position-absolute">
+            HEALTH
+          </p>
+        </div>
+        <h3 class="featured-stories-heading font-weight-bold">
+          Fauci Warns Even the Healthy Can Have Coronavirus Symptoms for Months
+        </h3>
+        <p class="featured-stories-p">
+          The U.S. makes up around a quarter of both the worldwide total of
+          COVID-19 cases and deaths.
+        </p>
       </div>
-      <div class="border-bottom">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-tumblr"></i>
-        <i class="fab fa-linkedin-in pb-3"></i>
+    </section>
+
+    <!-- SUBSCRIBE -->
+
+    <section class="sub-sec bg-white mt-5 py-5 container-fluid">
+      <h4 class="font-weight-bold">SUBSCRIBE</h4>
+      <div class="sub-div mx-auto text-center">
+        <img class="mr-n5" src="./images/subscribe-1.jpg" alt="" />
+        <img class="sub-img-2 ml-n5" src="./images/subscribe-2.jpg" alt="" />
+
+        <div class="mt-n5">
+          <p class="font-weight-bold">
+            In-depth Stories You Don't See Elsewhere About Topics You Want to
+            Read!
+          </p>
+          <p>
+            All access + weekly delivery <br />
+            Choose A Membership Thats Perfect For You
+          </p>
+        </div>
+        <button class="sub-btn px-2 py-2 mb-3 text-white border-0 rounded">
+          SUBSCRIBE >
+        </button>
       </div>
+    </section>
 
+    <!-- NEWS LETTER -->
+    <section class="news-section bg-white container-fluid my-3 pb-3">
+      <h4 class="font-weight-bold py-3">NEWS LETTER</h4>
+      <div
+        class="news-letter border p-5 d-flex flex-column justify-content-center align-items-center mx-auto"
+      >
+        <h5 class="font-weight-bold">The Starting 5</h5>
+        <p class="pb-3">
+          See why nearly a quarter of a million subscribers begin their day with
+          the Starting 5
+        </p>
 
+        <input
+          class="news-letter-input"
+          type="text"
+          placeholder="Email Address"
+        />
 
-    </div>
-    <div class="footer-links pt-3">
-      <div class="footer-links-edition ">
-        <ul class="d-flex list-unstyled flex-wrap">
-          <li class="mr-3"> <a href=""> <strong>Editions:</strong> </a> </li>
-          <li class="mr-3"><a href="">U.S. Edition</a></li>
-          <li class="mr-3"><a href="">日本</a></li>
-          <li class="mr-3"><a href="">Pakistan</a></li>
-          <li class="mr-3"><a href="">Polska</a></li>
-          <li class="mr-3"><a href="">Romania</a></li>
-        </ul>
-
+        <button
+          class="my-2 border-0 text-white btn btn-block n font-weight-bold"
+        >
+          FREE SIGN UP >
+        </button>
       </div>
-      <div class="footer-links-bottom">
-        <ul class="d-flex list-unstyled flex-wrap">
-          <li class="mr-3"><a href="">About Us</a></li>
-          <li class="mr-3"><a href="">Corrections</a></li>
-          <li class="mr-3"><a href="">Contact Us</a></li>
-          <li class="mr-3"><a href="">Editorial Guidelines</a></li>
-          <li class="mr-3"><a href="">Advertise</a></li>
-          <li class="mr-3"><a href="">Copyright</a></li>
-          <li class="mr-3"><a href="">Terms & Conditions</a></li>
-          <li class="mr-3"><a href="">Privacy Policy</a></li>
-          <li class="mr-3"><a href="">Cookie Policy</a></li>
-          <li class="mr-3"><a href="">Terms of Sale</a></li>
-          <li class="mr-3"><a href="">Archive</a></li>
-          <li class="mr-3"><a href="">Announcements</a></li>
-          <li class="mr-3"><a href="">Consent preferences</a></li>
+    </section>
 
-        </ul>
+    <footer class="container-fluid bg-white mt-4 py-3">
+      <div class="footer-info pt-3">
+        <div>
+          <img
+            class="footer-newsweek-logo"
+            src="images/footer-logo.svg"
+            alt=""
+          />
+          <p class="pt-2 copyright">© 2020 NEWSWEEK</p>
+        </div>
+        <div class="border-bottom">
+          <i class="fab fa-facebook-square social-media-icons"></i>
+          <i class="fab fa-twitter social-media-icons"></i>
+          <i class="fab fa-instagram social-media-icons"></i>
+          <i class="fab fa-tumblr social-media-icons"></i>
+          <i class="fab fa-linkedin-in pb-3 social-media-icons"></i>
+        </div>
       </div>
-
-    </div>
-  </footer>
-</body>
-
+      <div class="footer-links pt-3">
+        <div class="footer-links-edition">
+          <ul class="d-flex list-unstyled flex-wrap">
+            <li class="mr-3">
+              <a href=""> <strong>Editions:</strong> </a>
+            </li>
+            <li class="mr-3"><a href="">U.S. Edition</a></li>
+            <li class="mr-3"><a href="">日本</a></li>
+            <li class="mr-3"><a href="">Pakistan</a></li>
+            <li class="mr-3"><a href="">Polska</a></li>
+            <li class="mr-3"><a href="">Romania</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-bottom">
+          <ul class="d-flex list-unstyled flex-wrap">
+            <li class="mr-3"><a href="">About Us</a></li>
+            <li class="mr-3"><a href="">Corrections</a></li>
+            <li class="mr-3"><a href="">Contact Us</a></li>
+            <li class="mr-3"><a href="">Editorial Guidelines</a></li>
+            <li class="mr-3"><a href="">Advertise</a></li>
+            <li class="mr-3"><a href="">Copyright</a></li>
+            <li class="mr-3"><a href="">Terms & Conditions</a></li>
+            <li class="mr-3"><a href="">Privacy Policy</a></li>
+            <li class="mr-3"><a href="">Cookie Policy</a></li>
+            <li class="mr-3"><a href="">Terms of Sale</a></li>
+            <li class="mr-3"><a href="">Archive</a></li>
+            <li class="mr-3"><a href="">Announcements</a></li>
+            <li class="mr-3"><a href="">Consent preferences</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
