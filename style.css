@@ -345,4 +345,46 @@ footer i {
 /* Desktop breakpoint 992px */
 
 @media (min-width: 992px) {
+  /* Opnion */
+  .opnion-img {
+    width: 100%;
+  }
+
+  /* EDITORS PICK  */
+
+  .editors-pick-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+  }
+
+  .editors-pick-bg-img {
+    height: 141px;
+  }
+
+  /* Subscribe */
+  .subscribe-newsletter-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+
+  .sub-btn {
+    width: 70%;
+  }
+
+  /* Newsletter */
+
+  .news-letter img {
+    width: 100%;
+    height: 254px;
+  }
+
+  .news-letter {
+    width: 100%;
+  }
+
+  .news-letter-input {
+    padding: 0 19%;
+  }
 }

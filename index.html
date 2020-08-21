@@ -52,7 +52,7 @@
       >
         <!-- featued stories -->
         <div
-          class="featured-stories-div bg-white pt-3 mb-4 col-md-5 order-sm-1 order-md-1"
+          class="featured-stories-div bg-white pt-3 mb-4 col-md-5 col-lg-3 order-sm-1 order-md-1"
         >
           <div>
             <div class="justify-content-start">
@@ -176,7 +176,7 @@
         </div>
 
         <!-- TOP STOREIS -->
-        <div class="top-stories-div bg-white mb-4 col-md-7 order-md-2">
+        <div class="top-stories-div bg-white mb-4 col-md-7 col-lg-5 order-md-2">
           <div>
             <div class="container-fluid">
               <h4 class="pt-3 featured-stories-header">TOP STORIES</h4>
@@ -507,8 +507,8 @@
           </div>
         </div>
 
-        <div class="order-sm-2 container-fluid px-0">
-          <!-- THE DEBATE -->
+        <!-- THE DEBATE -->
+        <div class="order-sm-2 container-fluid col-lg-4 px-0">
           <section class="the-debate container-fluid mx-auto px-0 pb-3">
             <div class="the-debate-div bg-white mb-4">
               <div class="the-debate-heading">
@@ -561,7 +561,7 @@
           <!-- OPNION -->
           <div class="opnion bg-white container-fluid py-3">
             <h3>OPINION</h3>
-            <div class="mb-4 mt-4 d-flex">
+            <div class="mb-4 mt-4 d-flex opnion-img">
               <img
                 class="mr-3 pb-3"
                 src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
@@ -674,6 +674,33 @@
               </div>
             </div>
           </div>
+
+          <section
+            class="sign-up-section py-5 bg-white d-lg-block d-sm-none d-md-none"
+          >
+            <div class="sign-up w-50 mx-auto h-167 py-4">
+              <div class="sign-up-div d-flex justify-content-center">
+                <p class="text-center">
+                  <img
+                    src="https://g.newsweek.com/www/images/logo-n1.svg"
+                    alt=""
+                  />
+                  START YOUR DAY WITH OUR <br />
+                  TOP FIVE ARTICLES
+                </p>
+              </div>
+              <div class="w-75 mx-auto d-flex flex-column">
+                <input
+                  class="mb-3 border-0"
+                  type="email"
+                  placeholder="Email Address"
+                />
+                <button class="border-0 s FREE-SIGN-UP text-white">
+                  FREE SIGN UP
+                </button>
+              </div>
+            </div>
+          </section>
         </div>
 
         <!-- More stories  -->
@@ -985,7 +1012,7 @@
       </div>
     </section>
     <!-- SIGN-UP FORM -->
-    <section class="sign-up-section py-5 bg-white">
+    <section class="sign-up-section py-5 bg-white d-lg-none">
       <div class="sign-up w-50 mx-auto h-167 py-4">
         <div class="sign-up-div d-flex justify-content-center">
           <p class="text-center">
@@ -1218,65 +1245,66 @@
     </section>
 
     <!-- SUBSCRIBE -->
+    <div class="subscribe-newsletter-grid">
+      <section class="sub-sec bg-white mt-5 py-5 container-fluid">
+        <h4 class="font-weight-bold">SUBSCRIBE</h4>
+        <div class="sub-div mx-auto text-center">
+          <img class="mr-n5" src="./images/subscribe-1.jpg" alt="" />
+          <img class="sub-img-2 ml-n5" src="./images/subscribe-2.jpg" alt="" />
 
-    <section class="sub-sec bg-white mt-5 py-5 container-fluid">
-      <h4 class="font-weight-bold">SUBSCRIBE</h4>
-      <div class="sub-div mx-auto text-center">
-        <img class="mr-n5" src="./images/subscribe-1.jpg" alt="" />
-        <img class="sub-img-2 ml-n5" src="./images/subscribe-2.jpg" alt="" />
-
-        <div class="sub-div-content">
-          <div class="mt-n5">
-            <p class="font-weight-bold mt-md-5">
-              In-depth Stories You Don't See Elsewhere About Topics You Want to
-              Read!
-            </p>
-            <p>
-              All access + weekly delivery <br />
-              Choose A Membership Thats Perfect For You
-            </p>
+          <div class="sub-div-content ml-lg-3">
+            <div class="mt-n5">
+              <p class="font-weight-bold mt-md-5">
+                In-depth Stories You Don't See Elsewhere About Topics You Want
+                to Read!
+              </p>
+              <p>
+                All access + weekly delivery <br />
+                Choose A Membership Thats Perfect For You
+              </p>
+            </div>
+            <button
+              class="sub-btn px-sm-2 py-sm-2 mb-3 text-white border-0 rounded"
+            >
+              SUBSCRIBE >
+            </button>
           </div>
-          <button
-            class="sub-btn px-sm-2 py-sm-2 mb-3 text-white border-0 rounded"
-          >
-            SUBSCRIBE >
-          </button>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- NEWS LETTER -->
-    <section class="news-section bg-white container-fluid my-3 pb-3">
-      <h4 class="font-weight-bold py-sm-3">NEWS LETTER</h4>
-      <div
-        class="news-letter border p-md-1 p-sm-5 d-sm-flex d-md-flex flex-md-row flex-sm-column justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center"
-      >
-        <div class="mr-md-3">
-          <img src="./images/starting5-homepage.png" alt="" />
+      <!-- NEWS LETTER -->
+      <section class="news-section bg-white container-fluid my-3 mt-lg-5 pb-3">
+        <h4 class="font-weight-bold py-sm-3">NEWS LETTER</h4>
+        <div
+          class="news-letter border p-md-1 p-sm-5 d-sm-flex d-md-flex flex-md-row flex-sm-column justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center"
+        >
+          <div class="mr-md-3">
+            <img src="./images/starting5-homepage.png" alt="" />
+          </div>
+
+          <div>
+            <h5 class="font-weight-bold">The Starting 5</h5>
+            <p class="pb-3">
+              See why nearly a quarter of a million subscribers begin their day
+              with the Starting 5
+            </p>
+
+            <input
+              class="news-letter-input"
+              type="text"
+              placeholder="Email Address"
+            />
+
+            <button
+              class="my-2 border-0 text-white btn btn-block n font-weight-bold"
+            >
+              FREE SIGN UP >
+            </button>
+          </div>
         </div>
-
-        <div>
-          <h5 class="font-weight-bold">The Starting 5</h5>
-          <p class="pb-3">
-            See why nearly a quarter of a million subscribers begin their day
-            with the Starting 5
-          </p>
-
-          <input
-            class="news-letter-input"
-            type="text"
-            placeholder="Email Address"
-          />
-
-          <button
-            class="my-2 border-0 text-white btn btn-block n font-weight-bold"
-          >
-            FREE SIGN UP >
-          </button>
-        </div>
-      </div>
-    </section>
-
+      </section>
+    </div>
+    <!-- footer -->
     <footer class="container-fluid bg-white mt-4 py-3">
       <div class="footer-info pt-3 d-md-flex justify-content-md-between">
         <div class="d-md-flex">
