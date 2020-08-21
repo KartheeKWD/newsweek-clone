@@ -263,6 +263,74 @@ footer i {
     margin: 0;
     padding: 0;
   }
+
+  .my-turn-grid,
+  .my-turn-div-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+
+  /* magazine-section */
+  .magazine-section-container-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+  }
+
+  /* editors pick */
+  .editors-pick-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+  }
+
+  .editors-pick-bg-img {
+    height: 250px;
+  }
+
+  .sub-div {
+    display: flex;
+  }
+
+  .sub-div-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+
+  }
+
+  .sub-div-content p {
+    text-align: left;
+  }
+
+  .sub-btn{
+  width: 30%;  
+  }
+
+  /* news letter */
+
+  .news-letter {
+    padding: 0;
+    margin: 0;
+  }
+  .news-letter-img {
+    width: 50%;
+    background-color: lawngreen;
+  }
+
+  .news-letter-img-div img{
+    width: 100%;
+  }
+
+  .news-letter-content {
+    width: 50%;
+    
+  }
+
+  
 }
 
 /* thedebate */
