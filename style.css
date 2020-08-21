@@ -232,6 +232,10 @@ footer i {
   width: 26px;
   height: 26px;
 }
+
+.social-media {
+  border-bottom: 1px solid gray;
+}
 .social-media-icons {
   font-size: 25px;
 }
@@ -274,14 +278,14 @@ footer i {
   /* magazine-section */
   .magazine-section-container-grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1em;
   }
 
   /* editors pick */
   .editors-pick-grid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1em;
   }
 
@@ -299,38 +303,38 @@ footer i {
     width: 60%;
     height: 60%;
     margin: auto;
-
   }
 
   .sub-div-content p {
     text-align: left;
   }
 
-  .sub-btn{
-  width: 30%;  
+  .sub-btn {
+    width: 30%;
   }
 
   /* news letter */
 
-  .news-letter {
-    padding: 0;
-    margin: 0;
-  }
-  .news-letter-img {
-    width: 50%;
-    background-color: lawngreen;
+  .news-letter img {
+    width: 100%;
+    height: 254px;
   }
 
-  .news-letter-img-div img{
+  .news-letter {
     width: 100%;
   }
 
-  .news-letter-content {
-    width: 50%;
-    
+  .news-letter-input {
+    padding: 0 30%;
   }
 
-  
+  /* footer */
+  .footer-info {
+    border-bottom: 1px solid gray;
+  }
+  .social-media {
+    border-bottom: none;
+  }
 }
 
 /* thedebate */
