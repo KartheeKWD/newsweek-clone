@@ -1,62 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>NewsWeek Clone</title>
-  </head>
 
-  <body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>NewsWeek Clone</title>
+</head>
+
+<body>
+  <main class="container-fluid">
     <header>
-      <nav class="d-flex justify-content-between align-items-center">
+      <nav class="d-flex px-4 justify-content-between align-items-center">
+        <div class="d-lg-block d-sm-none d-md-none">
+          <ul class="d-flex list-unstyled align-items-lg-center">
+            <li>
+              <a href=""><img class="weather-logo" src="./images/sun-cloud.png" alt=""></a>
+            </li>
+            <li class="text-white"> 26°Kampala, UG </li>
+          </ul>
+          <ul class="list-unstyled">
+            <li class="text-white">Fri, Aug 21, 2020</li>
+          </ul>
+        </div>
         <div>
-          <img
-            class="newsweek-logo ml-3"
-            src="images/newsweek-logo.svg"
-            alt="NewsWeek-logo"
-          />
+          <img id="" class="newsweek-logo ml-3" src="images/newsweek-logo.svg" alt="NewsWeek-logo" />
         </div>
         <div class="d-flex align-items-center">
-          <i class="ml-3 fas fa-user-alt"></i>
-          <button class="subscribe ml-3 my-2 btn btn-warning">
+          <i class="ml-3 fas fa-user-alt d-lg-none d-md-none"></i>
+          <button class="login border-0 font-weight-bold text-white d-sm-none d-md-block">LOGIN</button>
+          <button class="subscribe ml-3 my-2 btn btn-warning font-weight-bold">
             Subscribe
           </button>
-          <i class="mx-3 fas fa-bars"></i>
+          <i class="mx-3 fas fa-bars d-lg-none"></i>
         </div>
       </nav>
     </header>
 
+    <nav class="d-sm-none">
+      <ul class="list-unstyled d-lg-flex font-weight-bold black-text pt-1">
+        <li class="px-lg-2 border-right "><a class="black-text" href="">U.S.</a></li>
+        <li class="px-lg-2 border-right"><a class="black-text" href="">World</a></li>
+        <li class="px-lg-2 border-right"><a class="black-text" href="">Business</a></li>
+        <li class="px-lg-2 border-right"><a class="black-text" href="">Tech & Science</a></li>
+        <li class="px-lg-2 border-right"><a class="black-text" href="">Culture</a></li>
+        <li class="px-lg-2 border-right"><a class="black-text" href="">Newsgeek</a></li>
+        <li class="px-lg-2 border-right"><a class="black-text" href="">Sports</a></li>
+        <li class="px-lg-2 border-right"><a class="black-text" href="">Health</a></li>
+        <li class="px-lg-2 border-right"><a class="black-text" href="">The debate</a></li>
+        <li class="px-lg-2 border-right"><a class="black-text" href="">Vantage</a></li>
+        <li class="px-lg-2 border-right"><a class="black-text" href="">Weather</a></li>
+        <li class="font-size-14 font-weight-normal nav-lg-middle-search align-middle pl-lg-1 ml-lg-2 mt-1">Search <i
+            class="fas fa-search"></i>
+        </li>
+      </ul>
+
+      <ul class="border-top border-bottom py-1 container list-unstyled d-lg-flex font-weight-bold black-text">
+        <li class=""><a class="black-text" href="">Trending</a></li>
+        <li class="pl-4"><a class="black-text bottom-nav-links" href="">Donald Trump</a></li>
+        <li class="pl-4"><a class="black-text bottom-nav-links" href="">Joe Biden</a></li>
+        <li class="pl-4"><a class="black-text bottom-nav-links" href="">China</a></li>
+        <li class="pl-4"><a class="black-text bottom-nav-links" href="">Coronavirus</a></li>
+        <li class="pl-4"><a class="black-text bottom-nav-links" href="">2020 Election</a></li>
+      </ul>
+    </nav>
+    </nav>
+
+
     <!-- MAIN SHOWCASE SECTION -->
 
     <section class="">
-      <div
-        class="main-section-container container-fluid mx-auto container-md row"
-      >
+      <div class="main-section-container container-fluid mx-auto  row">
         <!-- featued stories -->
-        <div
-          class="featured-stories-div bg-white pt-3 mb-4 col-md-5 col-lg-3 order-sm-1 order-md-1"
-        >
-          <div>
+        <div class="featured-stories-div bg-white pt-3 px-sm-0 mb-4 col-md-5 col-lg-3 order-sm-1 order-md-1">
+          <div class="px-sm-0">
             <div class="justify-content-start">
-              <h4 class="pt-3featured-stories-header">FEATURED STORIES</h4>
+              <h4 class="featured-stories-header">FEATURED STORIES</h4>
             </div>
             <div>
               <div class="featured-stories">
@@ -205,11 +231,7 @@
             <h3 class="my-turn-header">MY TURN</h3>
             <div class="my-turn-grid">
               <div class="my-turn-div">
-                <img
-                  class="my-turn-img mb-2"
-                  src="./images/love-coronavirus-immigration.jpg"
-                  alt=""
-                />
+                <img class="my-turn-img mb-2" src="./images/love-coronavirus-immigration.jpg" alt="" />
                 <div>
                   <p>
                     'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'
@@ -217,11 +239,7 @@
                 </div>
               </div>
               <div class="my-turn-div">
-                <img
-                  class="my-turn-img mb-2 w-100"
-                  src="./images/love-coronavirus-immigration.jpg"
-                  alt=""
-                />
+                <img class="my-turn-img mb-2 w-100" src="./images/love-coronavirus-immigration.jpg" alt="" />
                 <div>
                   <p>
                     'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'
@@ -229,11 +247,7 @@
                 </div>
               </div>
               <div class="my-turn-div">
-                <img
-                  class="my-turn-img mb-2"
-                  src="./images/love-coronavirus-immigration.jpg"
-                  alt=""
-                />
+                <img class="my-turn-img mb-2" src="./images/love-coronavirus-immigration.jpg" alt="" />
                 <div>
                   <p>
                     'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'
@@ -244,39 +258,25 @@
           </div>
 
           <!-- culture and travel -->
-          <div
-            class="order-sm-5 my-turn bg-white pt-3 mt-3 container-fluid d-sm-none d-md-block"
-          >
+          <div class="order-sm-5 my-turn bg-white pt-3 mt-3 container-fluid d-sm-none d-md-block">
             <h3 class="CULTURE-AND-TRAVEL">CULTURE AND TRAVEL</h3>
 
             <div class="my-turn-div-1">
               <div class="my-turn-div">
-                <img
-                  class="my-turn-img mb-2"
-                  src="./images/delta-airlines.jpg"
-                  alt=""
-                />
+                <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="" />
                 <div>
                   <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
                 </div>
               </div>
               <div class="my-turn-div">
-                <img
-                  class="my-turn-img mb-2"
-                  src="./images/delta-airlines.jpg"
-                  alt=""
-                />
+                <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="" />
                 <div>
                   <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
                 </div>
               </div>
 
               <div class="my-turn-div">
-                <img
-                  class="my-turn-img mb-2"
-                  src="./images/delta-airlines.jpg"
-                  alt=""
-                />
+                <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="" />
                 <div>
                   <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
                 </div>
@@ -289,11 +289,9 @@
           <div class="more-stories bg-white my-3 py-3 d-sm-none d-md-block">
             <h3>MORE STORIES</h3>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -307,11 +305,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -325,11 +321,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -343,11 +337,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -361,11 +353,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -379,11 +369,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -397,11 +385,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -415,11 +401,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -433,11 +417,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -451,11 +433,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -469,11 +449,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -487,11 +465,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3"
+              <img class="mr-3"
                 src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-                alt=""
-              />
+                alt="" />
               <div>
                 <h4 class="font-weight-bold black-text">
                   Thirty States May Reject Trump's Weekly $400 Unemployment
@@ -516,11 +492,9 @@
               </div>
 
               <div class="mb-4 mt-4 d-flex">
-                <img
-                  class="mr-3"
+                <img class="mr-3"
                   src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                  alt=""
-                />
+                  alt="" />
                 <div>
                   <p class="font-weight-bold">
                     Legalization Is the Only Way to Improve the Criminal Justice
@@ -529,8 +503,7 @@
                   <p>
                     BY
                     <span class="font-weight-bold">
-                      MAJOR NEILL FRANKLIN (RET.)</span
-                    >
+                      MAJOR NEILL FRANKLIN (RET.)</span>
                   </p>
                 </div>
               </div>
@@ -549,11 +522,9 @@
                   <p class="font-weight-bold">BY KEVIN SABET</p>
                 </div>
 
-                <img
-                  class="pb-3"
+                <img class="pb-3"
                   src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                  alt=""
-                />
+                  alt="" />
               </div>
             </div>
           </section>
@@ -562,11 +533,9 @@
           <div class="opnion bg-white container-fluid py-3">
             <h3>OPINION</h3>
             <div class="mb-4 mt-4 d-flex opnion-img">
-              <img
-                class="mr-3 pb-3"
+              <img class="mr-3 pb-3"
                 src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                alt=""
-              />
+                alt="" />
               <div>
                 <p class="font-weight-bold">
                   Legalization Is the Only Way to Improve the Criminal Justice
@@ -578,11 +547,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3 pb-3"
+              <img class="mr-3 pb-3"
                 src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                alt=""
-              />
+                alt="" />
               <div>
                 <p class="font-weight-bold">
                   Legalization Is the Only Way to Improve the Criminal Justice
@@ -594,11 +561,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3 pb-3"
+              <img class="mr-3 pb-3"
                 src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                alt=""
-              />
+                alt="" />
               <div>
                 <p class="font-weight-bold">
                   Legalization Is the Only Way to Improve the Criminal Justice
@@ -610,11 +575,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3 pb-3"
+              <img class="mr-3 pb-3"
                 src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                alt=""
-              />
+                alt="" />
               <div>
                 <p class="font-weight-bold">
                   Legalization Is the Only Way to Improve the Criminal Justice
@@ -626,11 +589,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3 pb-3"
+              <img class="mr-3 pb-3"
                 src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                alt=""
-              />
+                alt="" />
               <div>
                 <p class="font-weight-bold">
                   Legalization Is the Only Way to Improve the Criminal Justice
@@ -642,11 +603,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3 pb-3"
+              <img class="mr-3 pb-3"
                 src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                alt=""
-              />
+                alt="" />
               <div>
                 <p class="font-weight-bold">
                   Legalization Is the Only Way to Improve the Criminal Justice
@@ -658,11 +617,9 @@
               </div>
             </div>
             <div class="mb-4 mt-4 d-flex">
-              <img
-                class="mr-3 pb-3"
+              <img class="mr-3 pb-3"
                 src="https://d.newsweek.com/en/full/1621698/major-neill-franklin-ret.png?w=150&h=150&f=fedb525be44c92fd2598c72f563e8f95"
-                alt=""
-              />
+                alt="" />
               <div>
                 <p class="font-weight-bold">
                   Legalization Is the Only Way to Improve the Criminal Justice
@@ -675,27 +632,18 @@
             </div>
           </div>
 
-          <section
-            class="sign-up-section py-5 bg-white d-lg-block d-sm-none d-md-none"
-          >
-            <div class="sign-up w-50 mx-auto h-167 py-4">
+          <section class="sign-up-section py-5 bg-white d-lg-block d-sm-none d-md-none">
+            <div class="sign-up border h-167 py-4">
               <div class="sign-up-div d-flex justify-content-center">
                 <p class="text-center">
-                  <img
-                    src="https://g.newsweek.com/www/images/logo-n1.svg"
-                    alt=""
-                  />
+                  <img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="" />
                   START YOUR DAY WITH OUR <br />
                   TOP FIVE ARTICLES
                 </p>
               </div>
               <div class="w-75 mx-auto d-flex flex-column">
-                <input
-                  class="mb-3 border-0"
-                  type="email"
-                  placeholder="Email Address"
-                />
-                <button class="border-0 s FREE-SIGN-UP text-white">
+                <input class="mb-3 border-0" type="email" placeholder="Email Address" />
+                <button class="border-0 s FREE-SIGN-UP btn-sm text-white">
                   FREE SIGN UP
                 </button>
               </div>
@@ -708,11 +656,9 @@
         <div class="more-stories bg-white my-3 py-3 order-sm-3 d-md-none">
           <h3>MORE STORIES</h3>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -726,11 +672,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -744,11 +688,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -762,11 +704,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -780,11 +720,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -798,11 +736,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -816,11 +752,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -834,11 +768,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -852,11 +784,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -870,11 +800,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -888,11 +816,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -906,11 +832,9 @@
             </div>
           </div>
           <div class="mb-4 mt-4 d-flex">
-            <img
-              class="mr-3"
+            <img class="mr-3"
               src="https://d.newsweek.com/en/full/1623581/cia-china-agent-arrested-hawaii-fbi.jpg?w=95&h=95&f=100037ee3ee8d33007ebdfb6e4e95333"
-              alt=""
-            />
+              alt="" />
             <div>
               <h4 class="font-weight-bold black-text">
                 Thirty States May Reject Trump's Weekly $400 Unemployment Boost,
@@ -929,31 +853,19 @@
         <div class="order-sm-4 my-turn py-3 bg-white container-fluid d-md-none">
           <h3 class="my-turn-header">MY TURN</h3>
           <div class="my-turn-div">
-            <img
-              class="my-turn-img mb-2"
-              src="./images/love-coronavirus-immigration.jpg"
-              alt=""
-            />
+            <img class="my-turn-img mb-2" src="./images/love-coronavirus-immigration.jpg" alt="" />
             <div>
               <p>'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'</p>
             </div>
           </div>
           <div class="my-turn-div">
-            <img
-              class="my-turn-img mb-2 w-100"
-              src="./images/love-coronavirus-immigration.jpg"
-              alt=""
-            />
+            <img class="my-turn-img mb-2 w-100" src="./images/love-coronavirus-immigration.jpg" alt="" />
             <div>
               <p>'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'</p>
             </div>
           </div>
           <div class="my-turn-div">
-            <img
-              class="my-turn-img mb-2"
-              src="./images/love-coronavirus-immigration.jpg"
-              alt=""
-            />
+            <img class="my-turn-img mb-2" src="./images/love-coronavirus-immigration.jpg" alt="" />
             <div>
               <p>'My Fiancé and I Are Stuck 3,400 Miles Apart Indefinitely'</p>
             </div>
@@ -961,47 +873,29 @@
         </div>
 
         <!-- culture and travel -->
-        <div
-          class="order-sm-5 my-turn bg-white pt-3 mt-3 container-fluid d-md-none"
-        >
+        <div class="order-sm-5 my-turn bg-white pt-3 mt-3 container-fluid d-md-none">
           <h3 class="CULTURE-AND-TRAVEL">CULTURE AND TRAVEL</h3>
           <div class="my-turn-div">
-            <img
-              class="my-turn-img mb-2"
-              src="./images/delta-airlines.jpg"
-              alt=""
-            />
+            <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="" />
             <div>
               <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
             </div>
           </div>
 
           <div class="my-turn-div">
-            <img
-              class="my-turn-img mb-2"
-              src="./images/delta-airlines.jpg"
-              alt=""
-            />
+            <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="" />
             <div>
               <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
             </div>
 
             <div class="my-turn-div">
-              <img
-                class="my-turn-img mb-2"
-                src="./images/delta-airlines.jpg"
-                alt=""
-              />
+              <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="" />
               <div>
                 <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
               </div>
 
               <div class="my-turn-div">
-                <img
-                  class="my-turn-img mb-2"
-                  src="./images/delta-airlines.jpg"
-                  alt=""
-                />
+                <img class="my-turn-img mb-2" src="./images/delta-airlines.jpg" alt="" />
                 <div>
                   <p>How Likely Is It to Contract COVID-19 on a Plane?</p>
                 </div>
@@ -1022,11 +916,7 @@
           </p>
         </div>
         <div class="w-75 mx-auto d-flex flex-column">
-          <input
-            class="mb-3 border-0"
-            type="email"
-            placeholder="Email Address"
-          />
+          <input class="mb-3 border-0" type="email" placeholder="Email Address" />
           <button class="border-0 s FREE-SIGN-UP text-white">
             FREE SIGN UP
           </button>
@@ -1037,11 +927,7 @@
     <section class="mt-5 container-fluid bg-white magazine-section-container">
       <div class="magazine-section">
         <p class="text-center py-4 font-weight-bold">
-          <img
-            class="magazine-section-logo mr-2"
-            src="https://g.newsweek.com/www/images/logo-n1.svg"
-            alt=""
-          />
+          <img class="magazine-section-logo mr-2" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="" />
           IN THE MAGAZINE
         </p>
       </div>
@@ -1112,11 +998,7 @@
     <section class="mt-5 container-fluid bg-white">
       <div class="editors-pick">
         <p class="text-center font-weight-bold pt-3">
-          <img
-            class="editors-pick-logo"
-            src="https://g.newsweek.com/www/images/logo-n1.svg"
-            alt=""
-          />
+          <img class="editors-pick-logo" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="" />
           EDITORS PICK
         </p>
       </div>
@@ -1263,9 +1145,7 @@
                 Choose A Membership Thats Perfect For You
               </p>
             </div>
-            <button
-              class="sub-btn px-sm-2 py-sm-2 mb-3 text-white border-0 rounded"
-            >
+            <button class="sub-btn px-sm-2 py-sm-2 mb-3 text-white border-0 rounded">
               SUBSCRIBE >
             </button>
           </div>
@@ -1276,8 +1156,7 @@
       <section class="news-section bg-white container-fluid my-3 mt-lg-5 pb-3">
         <h4 class="font-weight-bold py-sm-3">NEWS LETTER</h4>
         <div
-          class="news-letter border p-md-1 p-sm-5 d-sm-flex d-md-flex flex-md-row flex-sm-column justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center"
-        >
+          class="news-letter border p-md-1 p-sm-5 d-sm-flex d-md-flex flex-md-row flex-sm-column justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center">
           <div class="mr-md-3">
             <img src="./images/starting5-homepage.png" alt="" />
           </div>
@@ -1289,15 +1168,9 @@
               with the Starting 5
             </p>
 
-            <input
-              class="news-letter-input"
-              type="text"
-              placeholder="Email Address"
-            />
+            <input class="news-letter-input btn-sm border-1" type="text" placeholder="Email Address" />
 
-            <button
-              class="my-2 border-0 text-white btn btn-block n font-weight-bold"
-            >
+            <button class="my-2 border-0 text-white btn btn-block n font-weight-bold">
               FREE SIGN UP >
             </button>
           </div>
@@ -1308,11 +1181,7 @@
     <footer class="container-fluid bg-white mt-4 py-3">
       <div class="footer-info pt-3 d-md-flex justify-content-md-between">
         <div class="d-md-flex">
-          <img
-            class="footer-newsweek-logo pb-md-2 pr-md-2"
-            src="images/footer-logo.svg"
-            alt=""
-          />
+          <img class="footer-newsweek-logo pb-md-2 pr-md-2" src="images/footer-logo.svg" alt="" />
           <p class="pt-2 pt-md-3 copyright">© 2020 NEWSWEEK</p>
         </div>
         <div class="social-media pb-sm-2">
@@ -1355,5 +1224,7 @@
         </div>
       </div>
     </footer>
-  </body>
+  </main>
+</body>
+
 </html>

@@ -23,6 +23,8 @@ header {
   border-radius: 30px;
 }
 
+
+
 /* MAIN SHOWCASE SECTION */
 .img-fluid {
   width: 100%;
@@ -199,6 +201,7 @@ header {
   width: 98%;
 }
 
+.login,
 .sub-div button,
 .news-letter button {
   background-color: #f72210;
@@ -345,10 +348,30 @@ footer i {
 /* Desktop breakpoint 992px */
 
 @media (min-width: 992px) {
-  /* Opnion */
-  .opnion-img {
-    width: 100%;
+  /* nav */
+  .bottom-nav-links {
+    color: #807f84;
   }
+  header{
+    height: 100px;
+  }
+  .weather-logo {
+    width: 50px;
+  }
+
+ /*.newsweek-logo {
+    height: 90px;
+    width: 100%;
+ }*/
+
+  /* Opnion */
+  .the-debate img,
+  .opnion img {
+    width: 60px;
+    height: 80px;
+}
+
+/* sign up */
 
   /* EDITORS PICK  */
 
@@ -387,4 +410,7 @@ footer i {
   .news-letter-input {
     padding: 0 19%;
   }
+
+
 }
+
