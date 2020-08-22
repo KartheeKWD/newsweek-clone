@@ -9,7 +9,7 @@
 
 ![screenshot](./images/rick-kartheek-page-screen-shot.png)
 
-## Link to the original website
+## Screenshot of the original website
 
 ![screenshot](./images/original-screenshot.png)
 
