@@ -10,20 +10,21 @@ body {
   width: 132px;
   height: 20px;
 }
+
 header {
   background-color: #f72210;
   height: 50px;
 }
+
 .fa-user-alt,
 .fa-bars {
   color: white;
   cursor: pointer;
 }
+
 .subscribe {
   border-radius: 30px;
 }
-
-
 
 /* MAIN SHOWCASE SECTION */
 .img-fluid {
@@ -32,13 +33,13 @@ header {
 
 .featured-stories-heading {
   font-size: 22px;
-  color: #000000;
+  color: #000;
 }
 
 .featured-stories-p,
 .by-line {
   font-size: 13px;
-  color: #333333;
+  color: #333;
 }
 
 .featured-stories-header,
@@ -82,6 +83,7 @@ header {
   background-color: #000;
   color: #d6d6d6;
 }
+
 .vs-sudo-hr {
   margin: 2px;
 }
@@ -96,7 +98,12 @@ header {
 .opnion img {
   width: 75px;
 }
+
 .opnion div {
+  border-bottom: 1px solid grey;
+}
+
+.more-stories div {
   border-bottom: 1px solid grey;
 }
 
@@ -110,16 +117,35 @@ header {
   width: 95px;
   height: 95px;
 }
-.more-stories div {
-  border-bottom: 1px solid grey;
-}
 
 .more-stories div div {
   border-bottom: none;
 }
 
+/* thedebate */
+.the-debate-heading h4 {
+  font-size: 16px;
+}
+
+.sub-sec h4,
+.news-section h4 {
+  color: #f72210;
+  font-size: 16px;
+}
+
 .more-stories > div h4 {
   font-size: 17px;
+}
+
+.my-turn p {
+  color: #03030380;
+  font-weight: 700;
+}
+
+.magazine-section p,
+.editors-pick p {
+  font-size: 19px;
+  color: #333;
 }
 
 .more-stories > div p {
@@ -130,13 +156,9 @@ header {
 .my-turn-div {
   padding: 0;
 }
+
 .my-turn-div img {
   width: 100%;
-}
-
-.my-turn p {
-  color: #03030380;
-  font-weight: 700;
 }
 
 /* SGN-UP FORM */
@@ -159,11 +181,6 @@ header {
 
 /* MAGAZINE  */
 
-.magazine-section p,
-.editors-pick p {
-  font-size: 19px;
-  color: #333333;
-}
 .magazine-section-logo {
   background-color: #f72210;
   width: 29px;
@@ -174,6 +191,7 @@ header {
   background-color: #f72210;
   display: inline-block;
 }
+
 .health {
   color: #f72210;
   display: inline-block;
@@ -186,12 +204,14 @@ header {
   width: 29px;
   height: 28px;
 }
+
 .editors-pick-bg-img {
   background-image: url(./images/editors-pick-image.jpg);
   background-size: cover;
   background-position: center center;
   height: 390px;
 }
+
 .featured-stories h3 {
   font-size: 20px;
 }
@@ -207,16 +227,9 @@ header {
   background-color: #f72210;
 }
 
-.sub-sec h4,
-.news-section h4 {
-  color: #f72210;
-  font-size: 16px;
-}
-
 /* NEWS LETTER */
 .news-letter {
   width: 90%;
-  /*background-color: #f72210;*/
 }
 
 .news-letter-input {
@@ -224,14 +237,13 @@ header {
 }
 
 /* FOOTER */
-
 footer a {
-  color: #666666;
+  color: #666;
   font-size: 14px;
 }
 
 footer i {
-  color: #666666;
+  color: #666;
   width: 26px;
   height: 26px;
 }
@@ -239,27 +251,31 @@ footer i {
 .social-media {
   border-bottom: 1px solid gray;
 }
+
 .social-media-icons {
   font-size: 25px;
 }
 
 .copyright {
-  color: #666666;
+  color: #666;
   font-size: 12px;
 }
 
 .footer-links-bottom {
   line-height: 2rem;
 }
+
 /* Tablet breakpoint 768px */
 @media (min-width: 768px) {
-  body{
+  body {
     background-color: #fff;
   }
+
   .all-contents {
     width: 97%;
     margin: 0 auto;
   }
+
   /* TOPSTORIES */
   .featured-stories-div {
     margin: 0;
@@ -276,11 +292,6 @@ footer i {
   .the-debate {
     margin: 0;
     padding: 0;
-  }
-
-  .featured-stories-div {
-    width: 80%;
-    margin: 0 auto;
   }
 
   .my-turn-grid,
@@ -347,21 +358,17 @@ footer i {
   .footer-info {
     border-bottom: 1px solid gray;
   }
+
   .social-media {
     border-bottom: none;
   }
-}
-
-/* thedebate */
-.the-debate-heading h4 {
-  font-size: 16px;
 }
 
 /* Desktop breakpoint 992px */
 
 @media (min-width: 992px) {
   main {
-    width: 1300px; 
+    width: 1300px;
     margin: 0 auto;
   }
 
@@ -369,39 +376,42 @@ footer i {
   .bottom-nav-links {
     color: #807f84;
   }
-  header{
+
+  header {
     height: 100px;
   }
+
   .weather-logo {
     width: 50px;
   }
 
- .newsweek-logo {
+  .newsweek-logo {
     height: 90px;
     width: 100%;
- }
+  }
 
- .nav-lg-middle {
-  font-size: 19px;
-}
+  .nav-lg-middle {
+    font-size: 19px;
+  }
 
- /* main section */
-.top-stories-div .featured-stories-bg-img {
-  height: 300px;
-}
+  /* main section */
+  .top-stories-div .featured-stories-bg-img {
+    height: 300px;
+  }
 
   /* Opnion */
+
   .the-debate img,
   .opnion img {
     width: 60px;
     height: 80px;
-}
+  }
 
-/* the debate */
-.the-debate{
-  height: 100px;
-  margin-bottom: 250px;
-}
+  /* the debate */
+  .the-debate {
+    height: 100px;
+    margin-bottom: 380px;
+  }
 
   /* EDITORS PICK  */
 
@@ -440,10 +450,4 @@ footer i {
   .news-letter-input {
     padding: 0 19%;
   }
-
-  /* footer */
- 
-
-
 }
-
