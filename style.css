@@ -2,7 +2,7 @@ body {
   background-color: #e2e4e7;
 }
 
-.black-text {
+.text-black {
   color: #000;
 }
 
@@ -18,7 +18,6 @@ header {
 
 .fa-user-alt,
 .fa-bars {
-  color: white;
   cursor: pointer;
 }
 
@@ -27,13 +26,8 @@ header {
 }
 
 /* MAIN SHOWCASE SECTION */
-.img-fluid {
-  width: 100%;
-}
-
 .featured-stories-heading {
   font-size: 22px;
-  color: #000;
 }
 
 .featured-stories-p,
@@ -60,7 +54,6 @@ header {
 }
 
 .featured-div-content {
-  bottom: 0;
   background-color: rgba(255, 255, 255, 0.9);
   color: #f72210;
 }
@@ -77,10 +70,8 @@ header {
 }
 
 .vs-sudo {
-  text-align: center;
   left: 50%;
   top: -20%;
-  background-color: #000;
   color: #d6d6d6;
 }
 
@@ -152,15 +143,6 @@ header {
   font-size: 13px;
 }
 
-/* MY TURN */
-.my-turn-div {
-  padding: 0;
-}
-
-.my-turn-div img {
-  width: 100%;
-}
-
 /* SGN-UP FORM */
 
 .sign-up,
@@ -180,6 +162,12 @@ header {
 }
 
 /* MAGAZINE  */
+.magazine-bg-img {
+  background-image: url(./images/magazine-image.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .magazine-section-logo {
   background-color: #f72210;
@@ -187,14 +175,9 @@ header {
   height: 28px;
 }
 
-.cover {
-  background-color: #f72210;
-  display: inline-block;
-}
-
+.cover,
 .health {
-  color: #f72210;
-  display: inline-block;
+  background-color: #f72210;
 }
 
 /* EDITORS PICK */
@@ -267,31 +250,15 @@ footer i {
 
 /* Tablet breakpoint 768px */
 @media (min-width: 768px) {
-  body {
-    background-color: #fff;
-  }
-
   .all-contents {
     width: 97%;
     margin: 0 auto;
   }
 
   /* TOPSTORIES */
-  .featured-stories-div {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
 
   .featured-stories-bg-img {
     height: 210px;
-    width: 100%;
-  }
-
-  .main-section-container,
-  .the-debate {
-    margin: 0;
-    padding: 0;
   }
 
   .my-turn-grid,
@@ -308,6 +275,10 @@ footer i {
     gap: 1em;
   }
 
+  .magazine-bg-img {
+    height: 250px;
+  }
+
   /* editors pick */
   .editors-pick-grid {
     display: grid;
@@ -319,20 +290,10 @@ footer i {
     height: 250px;
   }
 
-  .sub-div {
-    display: flex;
-  }
-
   .sub-div-content {
-    display: flex;
-    flex-direction: column;
     width: 60%;
     height: 60%;
     margin: auto;
-  }
-
-  .sub-div-content p {
-    text-align: left;
   }
 
   .sub-btn {
@@ -393,18 +354,9 @@ footer i {
   /* news letter */
 
   .news-letter img {
-    width: 100%;
     height: 254px;
   }
-
-  .news-letter {
-    width: 100%;
-  }
-
-  .news-letter-input {
-    padding: 0 32%;
-  }
-
+  
   /* footer */
   .footer-info {
     border-bottom: 1px solid gray;
@@ -442,7 +394,7 @@ footer i {
 
   .newsweek-logo {
     height: 90px;
-    width: 100%;
+    width: 315px;
   }
 
   .nav-lg-middle {
@@ -465,7 +417,7 @@ footer i {
   /* the debate */
   .the-debate {
     height: 100px;
-    margin-bottom: 380px;
+    margin-bottom: 370px;
   }
 
   /* EDITORS PICK  */
@@ -545,15 +497,6 @@ footer i {
   /* Newsletter */
 
   .news-letter img {
-    width: 100%;
     height: 254px;
-  }
-
-  .news-letter {
-    width: 100%;
-  }
-
-  .news-letter-input {
-    padding: 0 19%;
   }
 }

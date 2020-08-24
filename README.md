@@ -60,6 +60,3 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 Give a ⭐️ if you like this project!
 
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
