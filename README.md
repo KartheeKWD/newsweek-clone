@@ -9,10 +9,6 @@
 
 ![screenshot](./images/rick-kartheek-page-screen-shot.png)
 
-## Screenshot of the original website
-
-![screenshot](./images/original-screenshot.png)
-
 
 The project is built using Html and CSS with an extensive use of the Bootstrap CSS framework, flex and grid positioning.
 
