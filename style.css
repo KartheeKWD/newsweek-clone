@@ -199,6 +199,18 @@ header {
   font-size: 20px;
 }
 
+/* US*/
+
+.us-container h3 {
+  font-size: 22px;
+  color: #f72210;
+}
+
+.us-small-conatiner img {
+  width: 95px;
+  height: 65px;
+}
+
 /* SUBSCRIBTION SECTION */
 .sub-div {
   width: 98%;
@@ -250,10 +262,10 @@ footer i {
 
 /* Tablet breakpoint 768px */
 @media (min-width: 768px) {
-  .all-contents {
+  /* .all-contents {
     width: 97%;
     margin: 0 auto;
-  }
+  } */
 
   /* TOPSTORIES */
 
@@ -309,6 +321,10 @@ footer i {
 
   }
 
+  .us-container-grid img {
+    width: 100%;
+  }
+
   .us-container h3 {
     font-size: 22px;
     color: #f72210;
@@ -340,15 +356,20 @@ footer i {
     color: black;
   }
 
-  .us-small-img-1 {
-    width: 95px;
-    height: 65px;
-  }
-
-  .us-small-img-2 {
+  .us-small-conatiner img {
     width: 95px;
     height: 95px;
   }
+
+  /* .us-small-img-1 {
+    height: 95px;
+
+  }
+
+  .us-small-img-2 {
+
+    height: 95px;
+  } */
 
 
   /* news letter */
@@ -356,7 +377,7 @@ footer i {
   .news-letter img {
     height: 254px;
   }
-  
+
   /* footer */
   .footer-info {
     border-bottom: 1px solid gray;
@@ -432,6 +453,10 @@ footer i {
     height: 180px;
   }
 
+  .magazine-bg-img {
+    height: 408px;
+  }
+
   /* U.S */
 
   .us-container-grid {
@@ -487,7 +512,7 @@ footer i {
   .subscribe-newsletter-grid {
     display: grid;
     grid-template-columns: 60% 40%;
-    gap: 1em;
+
   }
 
   .sub-btn {
