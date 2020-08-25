@@ -1,0 +1,497 @@
+body {
+  background-color: #e2e4e7;
+}
+
+.text-black {
+  color: #000;
+}
+
+.newsweek-logo {
+  width: 132px;
+  height: 20px;
+}
+
+header {
+  background-color: #f72210;
+  height: 50px;
+}
+
+.fa-user-alt,
+.fa-bars {
+  cursor: pointer;
+}
+
+.subscribe {
+  border-radius: 30px;
+}
+
+/* MAIN SHOWCASE SECTION */
+.featured-stories-heading {
+  font-size: 22px;
+}
+
+.featured-stories-p,
+.by-line {
+  font-size: 13px;
+  color: #333;
+}
+
+.featured-stories-header,
+.the-debate-heading h4,
+.opnion h3,
+.more-stories h3,
+.my-turn-header,
+.CULTURE-AND-TRAVEL {
+  font-size: 16px;
+  color: #03030366;
+}
+
+.featured-stories-bg-img {
+  background-image: url(./images/anthony-fauci-deborah-birx-covid19-coronavirus-getty.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 390px;
+}
+
+.featured-div-content {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210;
+}
+
+/* THE DEBATE */
+
+.the-debate img {
+  width: 63px;
+  height: 63px;
+}
+
+.vs-debate {
+  height: 50px;
+}
+
+.vs-sudo {
+  left: 50%;
+  top: -20%;
+  color: #d6d6d6;
+}
+
+.vs-sudo-hr {
+  margin: 2px;
+}
+
+.the-debate-heading,
+.legalizing {
+  border-bottom: 3px solid grey;
+}
+
+/* OPNION */
+
+.opnion img {
+  width: 75px;
+}
+
+.opnion div {
+  border-bottom: 1px solid grey;
+}
+
+.more-stories div {
+  border-bottom: 1px solid grey;
+}
+
+.opnion div div {
+  border-bottom: none;
+}
+
+/* More stories  */
+
+.more-stories img {
+  width: 95px;
+  height: 95px;
+}
+
+.more-stories div div {
+  border-bottom: none;
+}
+
+/* thedebate */
+.the-debate-heading h4 {
+  font-size: 16px;
+}
+
+.sub-sec h4,
+.news-section h4 {
+  color: #f72210;
+  font-size: 16px;
+}
+
+.more-stories > div h4 {
+  font-size: 17px;
+}
+
+.my-turn p {
+  color: #03030380;
+  font-weight: 700;
+}
+
+.magazine-section p,
+.editors-pick p {
+  font-size: 19px;
+  color: #333;
+}
+
+.more-stories > div p {
+  font-size: 13px;
+}
+
+/* SGN-UP FORM */
+
+.sign-up,
+.sub-div {
+  background-color: #f4f5f6;
+}
+
+.sign-up-div img,
+.editors-pick-logo {
+  background-color: #f72210;
+  width: 20px;
+  height: 20px;
+}
+
+.FREE-SIGN-UP {
+  background-color: #f61602;
+}
+
+/* MAGAZINE  */
+.magazine-bg-img {
+  background-image: url(./images/magazine-image.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.magazine-section-logo {
+  background-color: #f72210;
+  width: 29px;
+  height: 28px;
+}
+
+.cover,
+.health {
+  background-color: #f72210;
+}
+
+/* EDITORS PICK */
+
+.editors-pick-logo {
+  background-color: #f72210;
+  width: 29px;
+  height: 28px;
+}
+
+.editors-pick-bg-img {
+  background-image: url(./images/editors-pick-image.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 390px;
+}
+
+.featured-stories h3 {
+  font-size: 20px;
+}
+
+/* US */
+
+.us-container h3 {
+  font-size: 22px;
+  color: #f72210;
+}
+
+.us-small-conatiner img {
+  width: 95px;
+  height: 65px;
+}
+
+/* SUBSCRIBTION SECTION */
+.sub-div {
+  width: 98%;
+}
+
+.login,
+.sub-div button,
+.news-letter button {
+  background-color: #f72210;
+}
+
+/* NEWS LETTER */
+.news-letter {
+  width: 90%;
+}
+
+.news-letter-input {
+  padding: 0 30%;
+}
+
+/* FOOTER */
+footer a {
+  color: #666;
+  font-size: 14px;
+}
+
+footer i {
+  color: #666;
+  width: 26px;
+  height: 26px;
+}
+
+.social-media {
+  border-bottom: 1px solid gray;
+}
+
+.social-media-icons {
+  font-size: 25px;
+}
+
+.copyright {
+  color: #666;
+  font-size: 12px;
+}
+
+.footer-links-bottom {
+  line-height: 2rem;
+}
+
+/* Tablet breakpoint 768px */
+@media (min-width: 768px) {
+  /* TOPSTORIES */
+  .featured-stories-bg-img {
+    height: 210px;
+  }
+
+  .my-turn-grid,
+  .my-turn-div-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+
+  /* magazine-section */
+  .magazine-section-container-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+  }
+
+  .magazine-bg-img {
+    height: 250px;
+  }
+
+  /* editors pick */
+  .editors-pick-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+
+  .editors-pick-bg-img {
+    height: 250px;
+  }
+
+  .sub-div-content {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+  }
+
+  .sub-btn {
+    width: 30%;
+  }
+
+  /* U.S */
+
+  .us-container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+
+  .us-container h3 {
+    font-size: 22px;
+    color: #f72210;
+  }
+
+  .us-text {
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  .us-text:hover {
+    color: black;
+    font-size: 22px;
+    border-bottom: 1px solid #f72210;
+    text-decoration: none;
+  }
+
+  .us-small-text {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .us-small-text:hover {
+    border-bottom: 1px solid #f72210;
+    text-decoration: none;
+    color: black;
+  }
+
+  .us-small-conatiner img {
+    width: 95px;
+    height: 95px;
+  }
+
+  /* news letter */
+  .news-letter img {
+    height: 254px;
+  }
+
+  /* footer */
+  .footer-info {
+    border-bottom: 1px solid gray;
+  }
+
+  .social-media {
+    border-bottom: none;
+  }
+}
+
+/* Desktop breakpoint 992px */
+
+@media (min-width: 992px) {
+  main {
+    width: 1300px;
+    margin: 0 auto;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* nav */
+  .bottom-nav-links {
+    color: #807f84;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  .weather-logo {
+    width: 50px;
+  }
+
+  .newsweek-logo {
+    height: 90px;
+    width: 315px;
+  }
+
+  .nav-lg-middle {
+    font-size: 19px;
+  }
+
+  /* main section */
+  .top-stories-div .featured-stories-bg-img {
+    height: 300px;
+  }
+
+  /* Opnion */
+
+  .the-debate img,
+  .opnion img {
+    width: 60px;
+    height: 80px;
+  }
+
+  /* the debate */
+  .the-debate {
+    height: 100px;
+    margin-bottom: 370px;
+  }
+
+  /* EDITORS PICK  */
+
+  .editors-pick-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+  }
+
+  .editors-pick-bg-img {
+    height: 180px;
+  }
+
+  .magazine-bg-img {
+    height: 408px;
+  }
+
+  /* U.S */
+
+  .us-container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+
+  .us-container h3 {
+    font-size: 22px;
+    color: #f72210;
+  }
+
+  .us-text {
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  .us-text:hover {
+    color: black;
+    font-size: 22px;
+    border-bottom: 1px solid #f72210;
+    text-decoration: none;
+  }
+
+  .us-small-text {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .us-small-text:hover {
+    border-bottom: 1px solid #f72210;
+    text-decoration: none;
+    color: black;
+  }
+
+  .us-small-img-1 {
+    width: 95px;
+    height: 65px;
+  }
+
+  .us-small-img-2 {
+    width: 95px;
+    height: 95px;
+  }
+
+  /* Subscribe */
+  .subscribe-newsletter-grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .sub-btn {
+    width: 70%;
+  }
+
+  /* Newsletter */
+
+  .news-letter img {
+    height: 254px;
+  }
+}
